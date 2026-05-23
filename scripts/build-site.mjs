@@ -6,7 +6,8 @@
  * Writes into daily_reports/ (already the publish dir):
  *   - index.html      copy of the latest <date>/<date>.html
  *   - archive.html    table of every <date>/<date>.html, newest first
- *   - feed.xml        RSS feed of selected LLM-picked brief items
+ *   - feed.xml        Main RSS feed for daily reading
+ *   - feeds/*.xml     Layered RSS feeds for category-specific readers
  *
  * Existing per-date subdirs are left untouched. Idempotent — safe to re-run.
  *
@@ -19,6 +20,28 @@ import path from "node:path";
 
 const ROOT = "daily_reports";
 const DEFAULT_RSS_CATEGORIES = ["tech", "finance", "politics"];
+const DEFAULT_RSS_DAYS = 3;
+const SOURCE_CONFIG = JSON.parse(fs.readFileSync("sources.config.json", "utf8"));
+const SOURCE_BY_ID = new Map(SOURCE_CONFIG.map((s) => [s.id, s]));
+const COMMUNITY_SUBCATEGORIES = new Set(["cn-community", "overseas-community"]);
+const TRACKING_PARAMS = new Set([
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_term",
+  "utm_content",
+  "fbclid",
+  "gclid",
+  "msclkid",
+]);
+const FEED_LIMITS = {
+  main: 50,
+  tech: 100,
+  community: 100,
+  markets: 80,
+  politics: 80,
+  all: 300,
+};
 
 if (!fs.existsSync(ROOT)) {
   console.error(`[build-site] ${ROOT}/ doesn't exist — run \`npm run daily\` first.`);
@@ -108,7 +131,7 @@ ${rows}
 fs.writeFileSync(path.join(ROOT, "archive.html"), archiveHtml, "utf8");
 console.log(`[build-site] archive.html (${dates.length} dates)`);
 
-// --- feed.xml = public RSS feed of selected brief items ---
+// --- RSS feeds = Miniflux-friendly rolling feeds ---
 const rssEnabled = (process.env.RSS_ENABLED ?? "true").toLowerCase() !== "false";
 if (rssEnabled) {
   const siteUrl = inferSiteUrl();
@@ -118,15 +141,15 @@ if (rssEnabled) {
       .map((c) => c.trim())
       .filter(Boolean),
   );
-  const rssLimit = parsePositiveInt(process.env.RSS_ITEM_LIMIT, 30);
-  const rssDays = parsePositiveInt(process.env.RSS_DAYS, 7);
-  const feedXml = buildRssFeed({ dates, siteUrl, rssCategories, rssLimit, rssDays });
-  fs.writeFileSync(path.join(ROOT, "feed.xml"), feedXml, "utf8");
-  console.log(
-    `[build-site] feed.xml (${rssCategories.size} categories, ${rssLimit} items, ${rssDays} days)`,
-  );
+  const rssDays = parsePositiveInt(process.env.RSS_DAYS, DEFAULT_RSS_DAYS);
+  const feeds = buildRssFeeds({ dates, siteUrl, rssCategories, rssDays });
+  fs.mkdirSync(path.join(ROOT, "feeds"), { recursive: true });
+  for (const feed of feeds) {
+    fs.writeFileSync(path.join(ROOT, feed.path), feed.xml, "utf8");
+    console.log(`[build-site] ${feed.path} (${feed.count} items, ${rssDays} days)`);
+  }
 } else {
-  console.log(`[build-site] feed.xml skipped (RSS_ENABLED=false)`);
+  console.log(`[build-site] RSS skipped (RSS_ENABLED=false)`);
 }
 
 // .nojekyll prevents GitHub Pages from running Jekyll, which would otherwise
@@ -135,52 +158,110 @@ if (rssEnabled) {
 fs.writeFileSync(path.join(ROOT, ".nojekyll"), "", "utf8");
 console.log(`[build-site] .nojekyll`);
 
-function buildRssFeed({ dates, siteUrl, rssCategories, rssLimit, rssDays }) {
-  const items = [];
-  const selectedDates = dates.slice(0, rssDays);
-  for (const date of selectedDates) {
-    const reportPath = path.join(ROOT, date, `${date}.json`);
-    if (!fs.existsSync(reportPath)) continue;
+function buildRssFeeds({ dates, siteUrl, rssCategories, rssDays }) {
+  const bundles = dates.slice(0, rssDays).map((date) => loadBundle(date, siteUrl)).filter(Boolean);
+  const communityPerDay = parsePositiveInt(process.env.RSS_MAIN_COMMUNITY_LIMIT, 5);
+  const feedDefs = [
+    {
+      name: "main",
+      path: "feed.xml",
+      title: envValue("RSS_TITLE") || "daily-brief",
+      description:
+        envValue("RSS_DESCRIPTION") ||
+        "Personal DailyBrief feed: selected briefs plus a few community discussions.",
+      limit: parsePositiveInt(process.env.RSS_ITEM_LIMIT, FEED_LIMITS.main),
+      items: bundles.flatMap((bundle) => [
+        ...collectBriefItems(bundle.report, rssCategories).map((item) => ({ ...item, ...bundle.meta })),
+        ...collectRawItems(bundle, { feedName: "community" }).slice(0, communityPerDay),
+      ]),
+    },
+    {
+      name: "tech",
+      path: "feeds/tech.xml",
+      title: "daily-brief tech",
+      description: "Technology, AI, GitHub Trending, and developer ecosystem items.",
+      limit: parsePositiveInt(process.env.RSS_TECH_LIMIT, FEED_LIMITS.tech),
+      items: bundles.flatMap((bundle) => collectRawItems(bundle, { feedName: "tech" })),
+    },
+    {
+      name: "community",
+      path: "feeds/community.xml",
+      title: "daily-brief community",
+      description: "Developer community discussions from sources such as V2EX, LinuxDo, and HN.",
+      limit: parsePositiveInt(process.env.RSS_COMMUNITY_LIMIT, FEED_LIMITS.community),
+      items: bundles.flatMap((bundle) => collectRawItems(bundle, { feedName: "community" })),
+    },
+    {
+      name: "markets",
+      path: "feeds/markets.xml",
+      title: "daily-brief markets",
+      description: "Finance, markets, and macro news items.",
+      limit: parsePositiveInt(process.env.RSS_MARKETS_LIMIT, FEED_LIMITS.markets),
+      items: bundles.flatMap((bundle) => collectRawItems(bundle, { feedName: "markets" })),
+    },
+    {
+      name: "politics",
+      path: "feeds/politics.xml",
+      title: "daily-brief politics",
+      description: "Politics, policy, and international affairs items.",
+      limit: parsePositiveInt(process.env.RSS_POLITICS_LIMIT, FEED_LIMITS.politics),
+      items: bundles.flatMap((bundle) => collectRawItems(bundle, { feedName: "politics" })),
+    },
+    {
+      name: "all",
+      path: "feeds/all.xml",
+      title: "daily-brief all",
+      description: "All recent DailyBrief items for feed readers such as Miniflux.",
+      limit: parsePositiveInt(process.env.RSS_ALL_LIMIT, FEED_LIMITS.all),
+      items: bundles.flatMap((bundle) => collectRawItems(bundle, { feedName: "all" })),
+    },
+  ];
 
-    const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
-    const reportUrl = new URL(`${date}/${date}.html`, siteUrl).toString();
-    for (const item of collectBriefItems(report, rssCategories)) {
-      items.push({ ...item, date, reportUrl });
-      if (items.length >= rssLimit) break;
-    }
-    if (items.length >= rssLimit) break;
-  }
+  return feedDefs.map((feed) => {
+    const items = dedupeByGuid(sortFeedItems(feed.items)).slice(0, feed.limit);
+    return {
+      path: feed.path,
+      count: items.length,
+      xml: renderRssChannel({ ...feed, items, siteUrl }),
+    };
+  });
+}
 
-  const latest = dates[0];
+function loadBundle(date, siteUrl) {
+  const reportPath = path.join(ROOT, date, `${date}.json`);
+  if (!fs.existsSync(reportPath)) return null;
+  const report = JSON.parse(fs.readFileSync(reportPath, "utf8"));
+  const articlesPath = path.join(ROOT, date, `${date}-articles.json`);
+  const articles = fs.existsSync(articlesPath)
+    ? JSON.parse(fs.readFileSync(articlesPath, "utf8")).articles ?? []
+    : [];
+  return {
+    report,
+    articles: articles.map(normalizeArticle),
+    meta: {
+      date,
+      reportUrl: new URL(`${date}/${date}.html`, siteUrl).toString(),
+    },
+  };
+}
+
+function renderRssChannel({ name, path: feedPath, title, description, items, siteUrl }) {
   const channelLink = siteUrl.toString();
-  const selfLink = new URL("feed.xml", siteUrl).toString();
-  const archiveLink = new URL("archive.html", siteUrl).toString();
+  const selfLink = new URL(feedPath, siteUrl).toString();
   const lastBuildDate = new Date().toUTCString();
-  const channelTitle = envValue("RSS_TITLE") || "daily-brief selected items";
-  const channelDescription =
-    envValue("RSS_DESCRIPTION") ||
-    "Selected AI daily brief items generated by daily-brief.";
-
   return `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>${xml(channelTitle)}</title>
+    <title>${xml(title)}</title>
     <link>${xml(channelLink)}</link>
-    <description>${xml(channelDescription)}</description>
+    <description>${xml(description)}</description>
     <language>${xml(process.env.REPORT_LOCALE === "en" ? "en" : "zh-CN")}</language>
     <lastBuildDate>${xml(lastBuildDate)}</lastBuildDate>
     <atom:link href="${xml(selfLink)}" rel="self" type="application/rss+xml" />
     <docs>https://www.rssboard.org/rss-specification</docs>
     <generator>daily-brief</generator>
     <ttl>60</ttl>
-    <item>
-      <title>${xml(`Latest daily brief (${latest})`)}</title>
-      <link>${xml(channelLink)}</link>
-      <guid isPermaLink="false">${xml(`daily-brief:${latest}:index`)}</guid>
-      <pubDate>${xml(dateToRfc822(latest))}</pubDate>
-      <description>${xml(`Latest full report. Archive: ${archiveLink}`)}</description>
-    </item>
-${items.map(renderRssItem).join("\n")}
+${items.map((item) => renderRssItem(item, name)).join("\n")}
   </channel>
 </rss>
 `;
@@ -195,24 +276,130 @@ function collectBriefItems(report, rssCategories) {
   return groups.flatMap(([category, key]) => {
     if (!rssCategories.has(category)) return [];
     const items = Array.isArray(report[key]) ? report[key] : [];
-    return items.map((item) => ({ ...item, category }));
+    return items.map((item) => ({ ...item, category, type: "brief" }));
   });
 }
 
-function renderRssItem(item) {
-  const title = `[${item.category}] ${item.title}`;
-  const source = item.source ? `Source: ${item.source}. ` : "";
-  const summary = item.summary || "No summary available.";
-  const description = `${summary}\n\n${source}Daily report: ${item.reportUrl}`;
+function collectRawItems(bundle, { feedName }) {
+  return bundle.articles
+    .filter((item) => rawItemBelongsToFeed(item, feedName))
+    .map((item) => ({ ...item, ...bundle.meta, type: "raw" }));
+}
+
+function rawItemBelongsToFeed(item, feedName) {
+  if (feedName === "all") return true;
+  if (feedName === "community") return COMMUNITY_SUBCATEGORIES.has(item.subcategory);
+  if (feedName === "tech") {
+    return item.category === "tech" && !COMMUNITY_SUBCATEGORIES.has(item.subcategory);
+  }
+  if (feedName === "markets") return item.category === "finance";
+  if (feedName === "politics") return item.category === "politics";
+  return false;
+}
+
+function normalizeArticle(item) {
+  const source = SOURCE_BY_ID.get(item.sourceId);
+  return {
+    ...item,
+    source: item.source || source?.name || item.sourceId || "unknown",
+    subcategory: source?.subcategory,
+    publishedAt: item.publishedAt ? new Date(item.publishedAt) : undefined,
+  };
+}
+
+function renderRssItem(item, feedName) {
   const link = item.url || item.reportUrl;
+  const title = `[${categoryLabel(item)}] ${item.title}`;
+  const guid = item.url
+    ? canonicalUrl(item.url)
+    : `dailybrief:${feedName}:${item.date}:${hashText(item.title)}`;
+  const description = renderItemCard(item);
   return `    <item>
       <title>${xml(title)}</title>
       <link>${xml(link)}</link>
-      <guid isPermaLink="false">${xml(`daily-brief:${item.date}:${link}`)}</guid>
-      <pubDate>${xml(dateToRfc822(item.date))}</pubDate>
-      <category>${xml(item.category)}</category>
+      <guid isPermaLink="false">${xml(guid)}</guid>
+      <pubDate>${xml(reportDateToRfc822(item.date))}</pubDate>
+      <category>${xml(categoryLabel(item))}</category>
       <description>${xml(description)}</description>
     </item>`;
+}
+
+function renderItemCard(item) {
+  const summary = item.summary || item.excerpt || item.meta || "暂无摘要。";
+  const why = whyWorthReading(item);
+  const meta = item.meta ? `<p><strong>补充：</strong>${html(item.meta)}</p>` : "";
+  return `<p><strong>来源：</strong>${html(item.source || "unknown")}</p>
+<p><strong>分类：</strong>${html(categoryLabel(item))}</p>
+<p><strong>摘要：</strong>${html(summary)}</p>
+${meta}
+<p><strong>为什么值得看：</strong>${html(why)}</p>
+<p><a href="${html(item.reportUrl)}">查看当日 DailyBrief</a></p>`;
+}
+
+function whyWorthReading(item) {
+  if (item.type === "brief") {
+    return item.importance
+      ? `入选今日 LLM 精选，重要性评分 ${item.importance}/10。`
+      : "入选今日 LLM 精选。";
+  }
+  if (COMMUNITY_SUBCATEGORIES.has(item.subcategory)) {
+    return "来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。";
+  }
+  if (item.category === "tech") return "有助于跟踪 AI、技术产品和开发者生态的最新变化。";
+  if (item.category === "finance") return "有助于判断市场、公司和宏观环境的当日变化。";
+  if (item.category === "politics") return "有助于把握政策、国际关系和地缘风险信号。";
+  return "近期 DailyBrief 收录条目。";
+}
+
+function categoryLabel(item) {
+  if (COMMUNITY_SUBCATEGORIES.has(item.subcategory)) return "社区";
+  if (item.category === "tech") return "技术";
+  if (item.category === "finance") return "市场";
+  if (item.category === "politics") return "时政";
+  return item.category || "DailyBrief";
+}
+
+function dedupeByGuid(items) {
+  const seen = new Set();
+  const out = [];
+  for (const item of items) {
+    const guid = item.url ? canonicalUrl(item.url) : `${item.date}:${hashText(item.title)}`;
+    if (seen.has(guid)) continue;
+    seen.add(guid);
+    out.push(item);
+  }
+  return out;
+}
+
+function sortFeedItems(items) {
+  return [...items].sort((a, b) => {
+    const dateOrder = b.date.localeCompare(a.date);
+    if (dateOrder !== 0) return dateOrder;
+    if (a.type === "brief" && b.type !== "brief") return -1;
+    if (a.type !== "brief" && b.type === "brief") return 1;
+    return (b.publishedAt?.getTime?.() ?? 0) - (a.publishedAt?.getTime?.() ?? 0);
+  });
+}
+
+function canonicalUrl(value) {
+  try {
+    const url = new URL(value);
+    url.hash = "";
+    url.hostname = url.hostname.toLowerCase();
+    for (const key of [...url.searchParams.keys()]) {
+      if (TRACKING_PARAMS.has(key.toLowerCase())) url.searchParams.delete(key);
+    }
+    url.searchParams.sort();
+    return url.toString();
+  } catch {
+    return value;
+  }
+}
+
+function hashText(value) {
+  let hash = 5381;
+  for (const ch of String(value ?? "")) hash = (hash * 33) ^ ch.charCodeAt(0);
+  return (hash >>> 0).toString(36);
 }
 
 function inferSiteUrl() {
@@ -242,8 +429,40 @@ function envValue(name) {
   return value ? value : undefined;
 }
 
-function dateToRfc822(date) {
-  return new Date(`${date}T00:00:00.000Z`).toUTCString();
+function reportDateToRfc822(date) {
+  return zonedDateTimeToUtc(date, 12, envValue("REPORT_TZ") || "UTC").toUTCString();
+}
+
+function zonedDateTimeToUtc(date, hour, timeZone) {
+  const candidate = new Date(`${date}T${String(hour).padStart(2, "0")}:00:00.000Z`);
+  return new Date(candidate.getTime() - timeZoneOffsetMs(candidate, timeZone));
+}
+
+function timeZoneOffsetMs(date, timeZone) {
+  try {
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hourCycle: "h23",
+    }).formatToParts(date);
+    const got = Object.fromEntries(parts.map((p) => [p.type, p.value]));
+    const asUtc = Date.UTC(
+      Number(got.year),
+      Number(got.month) - 1,
+      Number(got.day),
+      Number(got.hour),
+      Number(got.minute),
+      Number(got.second),
+    );
+    return asUtc - date.getTime();
+  } catch {
+    return 0;
+  }
 }
 
 function xml(value) {
@@ -253,6 +472,15 @@ function xml(value) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&apos;");
+}
+
+function html(value) {
+  return stripInvalidXmlChars(String(value ?? ""))
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 }
 
 function stripInvalidXmlChars(value) {

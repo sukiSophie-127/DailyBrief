@@ -108,12 +108,17 @@
    - `REPORT_TZ` —— IANA 时区名（默认 UTC），例 `Asia/Shanghai` / `America/Los_Angeles`。**同时影响触发时间和日期标签**
    - `REPORT_HOUR` —— 触发的小时（基于 `REPORT_TZ`），默认 `8`（早 8 点）。逗号分隔可多次触发，如 `8,18` = 早 8 + 晚 6
    - `REPORT_DAYS` —— 触发的星期（cron 风格，`0`=周日 ... `6`=周六），默认 `*`（每天）。例 `1-5` = 工作日；`1,3,5` = 周一三五
-   - `RSS_CATEGORIES` —— 对外 RSS 收录哪些精选分组，默认 `tech,finance,politics`；也可设成 `tech` 或 `tech,finance`
-   - `RSS_ITEM_LIMIT` —— RSS 最多条目数，默认 `30`
+   - `RSS_CATEGORIES` —— 主 RSS 收录哪些 LLM 精选分组，默认 `tech,finance,politics`；也可设成 `tech` 或 `tech,finance`
+   - `RSS_DAYS` —— RSS 滚动窗口天数，默认 `3`；Miniflux 等阅读器负责长期保存
+   - `RSS_ITEM_LIMIT` —— 主 RSS `/feed.xml` 最多条目数，默认 `50`
+   - `RSS_MAIN_COMMUNITY_LIMIT` —— 主 RSS 每天额外加入的社区热帖数，默认 `5`
+   - `RSS_TECH_LIMIT` / `RSS_COMMUNITY_LIMIT` / `RSS_MARKETS_LIMIT` / `RSS_POLITICS_LIMIT` / `RSS_ALL_LIMIT` —— 细分 feed 条数上限，默认分别为 `100` / `100` / `80` / `80` / `300`
    - `RSS_SITE_URL` —— 自定义站点 URL；GitHub Pages 通常不需要填，会从仓库名自动推断
 6. **Actions 标签 → 选 "Daily Brief" workflow → Run workflow** 手动触发一次
 
-跑完后报告在 `https://<你的用户名>.github.io/<repo-名字>/`，精选 RSS 在 `https://<你的用户名>.github.io/<repo-名字>/feed.xml`。之后**默认每天 `REPORT_TZ` 时区的 08:00 自动更新**（不设 `REPORT_TZ` 就是 UTC 08:00）。
+跑完后报告在 `https://<你的用户名>.github.io/<repo-名字>/`，主 RSS 在 `https://<你的用户名>.github.io/<repo-名字>/feed.xml`。之后**默认每天 `REPORT_TZ` 时区的 08:00 自动更新**（不设 `REPORT_TZ` 就是 UTC 08:00）。
+
+RSS 同时提供细分 feed，适合 Miniflux 等阅读器按主题订阅：`/feeds/tech.xml`、`/feeds/community.xml`、`/feeds/markets.xml`、`/feeds/politics.xml`、`/feeds/all.xml`。
 
 > ⏰ **触发机制**：GitHub Actions 的 cron 只接受 UTC，所以工作流 cron 设置为**每小时跑一次**，里面有一个 `gate` 任务用 `REPORT_TZ` 把当前小时和 `REPORT_HOUR/REPORT_DAYS` 对照——匹配才往下跑 build，否则秒退。这样不论你在哪个时区都能精准命中本地时间，**夏令时也自动跟着切换**（IANA 时区数据库内置）。
 
@@ -565,12 +570,17 @@ MIT
    - `REPORT_TZ` — IANA timezone name (default UTC); e.g. `Asia/Shanghai` / `America/Los_Angeles`. **Drives both the trigger time and the date label.**
    - `REPORT_HOUR` — hour(s) to fire in `REPORT_TZ`, default `8` (08:00). Comma-separated for multiple, e.g. `8,18` = 8 AM and 6 PM
    - `REPORT_DAYS` — day-of-week filter (cron-style, `0`=Sunday ... `6`=Saturday), default `*` (every day). E.g. `1-5` = weekdays; `1,3,5` = Mon/Wed/Fri
-   - `RSS_CATEGORIES` — selected brief groups to include in the public RSS feed, default `tech,finance,politics`; set `tech` or `tech,finance` for narrower feeds
-   - `RSS_ITEM_LIMIT` — maximum RSS items, default `30`
+   - `RSS_CATEGORIES` — selected LLM brief groups to include in the main RSS feed, default `tech,finance,politics`; set `tech` or `tech,finance` for narrower feeds
+   - `RSS_DAYS` — rolling RSS window in days, default `3`; readers such as Miniflux handle long-term history
+   - `RSS_ITEM_LIMIT` — maximum items in the main RSS `/feed.xml`, default `50`
+   - `RSS_MAIN_COMMUNITY_LIMIT` — extra community posts added to the main RSS per day, default `5`
+   - `RSS_TECH_LIMIT` / `RSS_COMMUNITY_LIMIT` / `RSS_MARKETS_LIMIT` / `RSS_POLITICS_LIMIT` / `RSS_ALL_LIMIT` — per-feed item limits, default `100` / `100` / `80` / `80` / `300`
    - `RSS_SITE_URL` — custom site URL; usually unnecessary on GitHub Pages because it is inferred from the repository
 6. **Actions tab → "Daily Brief" workflow → Run workflow** to trigger manually for the first time
 
-Once the workflow turns green, your report lives at `https://<your-username>.github.io/<repo-name>/`, and the selected RSS feed lives at `https://<your-username>.github.io/<repo-name>/feed.xml`. After that, **it refreshes daily at 08:00 in `REPORT_TZ`** (or 08:00 UTC if `REPORT_TZ` is unset).
+Once the workflow turns green, your report lives at `https://<your-username>.github.io/<repo-name>/`, and the main RSS feed lives at `https://<your-username>.github.io/<repo-name>/feed.xml`. After that, **it refreshes daily at 08:00 in `REPORT_TZ`** (or 08:00 UTC if `REPORT_TZ` is unset).
+
+Layered feeds are also published for readers such as Miniflux: `/feeds/tech.xml`, `/feeds/community.xml`, `/feeds/markets.xml`, `/feeds/politics.xml`, and `/feeds/all.xml`.
 
 > ⏰ **How the schedule works**: GitHub Actions cron is UTC-only, so the workflow runs **hourly** and uses a `gate` job to check if the current hour in `REPORT_TZ` matches `REPORT_HOUR` / `REPORT_DAYS`. If so, the build job proceeds; otherwise it exits in seconds. This lets the schedule track any local timezone precisely, and **handles DST transitions automatically** (via the IANA tz database).
 
