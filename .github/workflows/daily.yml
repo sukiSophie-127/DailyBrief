@@ -172,7 +172,16 @@ jobs:
           WEB_MODE: 'true'
         run: npm run daily
 
-      - name: Build static site (index + archive)
+      - name: Build static site (index + archive + RSS)
+        env:
+          REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
+          RSS_ENABLED: ${{ vars.RSS_ENABLED }}
+          RSS_CATEGORIES: ${{ vars.RSS_CATEGORIES }}
+          RSS_ITEM_LIMIT: ${{ vars.RSS_ITEM_LIMIT }}
+          RSS_DAYS: ${{ vars.RSS_DAYS }}
+          RSS_TITLE: ${{ vars.RSS_TITLE }}
+          RSS_DESCRIPTION: ${{ vars.RSS_DESCRIPTION }}
+          RSS_SITE_URL: ${{ vars.RSS_SITE_URL }}
         run: npm run build-site
 
       - name: Publish to gh-pages
