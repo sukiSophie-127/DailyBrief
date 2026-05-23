@@ -140,10 +140,13 @@ jobs:
       # Bring previous reports into the workspace so they survive each run
       # and so build-site can list them all in the archive.
       - name: Restore existing reports from gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p daily_reports
-          if git ls-remote --exit-code --heads origin gh-pages >/dev/null 2>&1; then
-            git fetch origin gh-pages --depth=1
+          AUTH_REMOTE="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$AUTH_REMOTE" gh-pages >/dev/null 2>&1; then
+            git fetch "$AUTH_REMOTE" gh-pages:refs/remotes/origin/gh-pages --depth=1
             git --work-tree=daily_reports checkout origin/gh-pages -- . || true
             # Drop the index/archive — build-site regenerates them
             rm -f daily_reports/index.html daily_reports/archive.html
