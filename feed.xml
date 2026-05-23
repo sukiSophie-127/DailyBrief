@@ -3,519 +3,123 @@
   <channel>
     <title>daily-brief</title>
     <link>https://sukisophie-127.github.io/DailyBrief/</link>
-    <description>Personal DailyBrief feed: selected briefs plus a few community discussions.</description>
+    <description>Personal DailyBrief feed: one selected digest item per day.</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 23 May 2026 17:19:41 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 17:59:18 GMT</lastBuildDate>
     <atom:link href="https://sukisophie-127.github.io/DailyBrief/feed.xml" rel="self" type="application/rss+xml" />
     <docs>https://www.rssboard.org/rss-specification</docs>
     <generator>daily-brief</generator>
     <ttl>60</ttl>
     <item>
-      <title>[技术] OpenAI 被 Gartner 评为企业编码代理领导者</title>
-      <link>https://openai.com/index/gartner-2026-agentic-coding-leader</link>
-      <guid isPermaLink="false">https://openai.com/index/gartner-2026-agentic-coding-leader</guid>
+      <title>DailyBrief 精选 - 2026-05-24</title>
+      <link>https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html</link>
+      <guid isPermaLink="false">dailybrief:main:2026-05-24</guid>
       <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>DailyBrief</category>
+      <category>精选</category>
       <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI 被 Gartner 2026 年魔力象限评为企业 AI 编码代理领导者，Codex 因创新和大规模部署获认可。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 9/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[技术] Google DeepMind 启动亚太环境风险加速器</title>
-      <link>https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/</link>
-      <guid isPermaLink="false">https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;DeepMind 在亚太推出加速器项目，利用 AI 帮助应对环境风险，支持初创和研究机构。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[技术] 英伟达发布 Nemotron-Labs 扩散语言模型，大幅提升文本生成速度</title>
-      <link>https://huggingface.co/blog/nvidia/nemotron-labs-diffusion</link>
-      <guid isPermaLink="false">https://huggingface.co/blog/nvidia/nemotron-labs-diffusion</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;英伟达发布 Nemotron-Labs 扩散语言模型，实现光速级文本生成，推理效率显著提升。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[技术] DeepSeek API 完成提速扩容，支持 500 并发</title>
-      <link>https://linux.do/t/topic/2232185</link>
-      <guid isPermaLink="false">https://linux.do/t/topic/2232185</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;DeepSeek API 完成输出速度优化和服务扩容，默认支持 500 并发，企业可申请更高并发。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 6/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[技术] Understand-Anything：将代码转化为交互式知识图谱</title>
-      <link>https://github.com/Lum1104/Understand-Anything</link>
-      <guid isPermaLink="false">https://github.com/Lum1104/Understand-Anything</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;GitHub Trending&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;开源项目能将任意代码库转化为交互式知识图谱，支持搜索、问答，并与 Claude Code 等工具集成，减少 AI 调用成本。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] SpaceX、OpenAI 与 Anthropic 筹备 IPO，考验 AI 泡沫</title>
-      <link>https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12</link>
-      <guid isPermaLink="false">https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
       <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Financial Times&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;SpaceX、OpenAI 和 Anthropic 正筹备 IPO，FT 分析 AI 热潮下泡沫风险与资本博弈。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 9/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] 美国石油商趁伊朗危机增产，油价飙升 40%</title>
-      <link>https://www.ft.com/content/d0fc0074-86f1-46ec-bf80-9bbb6abb2c24</link>
-      <guid isPermaLink="false">https://www.ft.com/content/d0fc0074-86f1-46ec-bf80-9bbb6abb2c24</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Financial Times&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;伊朗战争致全球供应紧缺，油价暴涨 40%，美国石油公司迅速增产以获取暴利。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] 香奈儿十年分红超 210 亿美元</title>
-      <link>https://www.bloomberg.com/news/videos/2026-05-23/chanel-s-mega-dividend-brings-owners-windfall-to-21b-video</link>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/videos/2026-05-23/chanel-s-mega-dividend-brings-owners-windfall-to-21b-video</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Bloomberg Markets&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;香奈儿母公司过去十年分红超 210 亿美元，在奢侈品低迷期仍为所有者带来巨额收益。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] Uber 和 DoorDash 考虑竞购 Delivery Hero</title>
-      <link>https://www.ft.com/content/6d5df0df-74b3-4be9-a1ec-27322e1c3184</link>
-      <guid isPermaLink="false">https://www.ft.com/content/6d5df0df-74b3-4be9-a1ec-27322e1c3184</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Financial Times&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;美国外卖巨头 Uber 和 DoorDash 正试探投资者意愿，可能收购德国外卖集团 Delivery Hero 股份。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] 特朗普称新任美联储主席应独立但仍需降息</title>
-      <link>https://www.bbc.com/news/articles/cvgz311dq3ko?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="false">https://www.bbc.com/news/articles/cvgz311dq3ko?at_campaign=rss&amp;at_medium=RSS</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;BBC Business&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;特朗普强调新任美联储主席需完全独立，但此前他曾施压现任主席降息。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[时政] 山西煤矿爆炸致 82 死，近年最严重矿难</title>
-      <link>https://www.nytimes.com/2026/05/23/world/asia/xi-coal-mine-explosion-rescue.html</link>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/05/23/world/asia/xi-coal-mine-explosion-rescue.html</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
       <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;NYT World&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;山西煤矿瓦斯爆炸至少 82 人遇难，为 16 年来最严重矿难，习近平要求全力救援和追责。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 10/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h1&gt;特朗普今日将决定是否接受伊朗停火提议&lt;/h1&gt;
+&lt;p&gt;今日全球聚焦美伊局势，特朗普将面见谈判代表，决定是否接受伊朗停火方案；中国山西矿难致82死，习近平指示全力救援。技术领域，AI进展不断：OpenAI获Gartner企业编码代理领导者认证，NVIDIA推出扩散语言模型提速文本生成，DeepSeek API完成扩容，Google I/O彰显AI驱动科学新方向。财经方面，SpaceX、OpenAI、Anthropic筹备IPO考验AI泡沫承受力，美国石油商借伊朗冲突增产套利，Delivery Hero收到Uber百亿欧元收购要约，英国4月借贷创疫情以来新高，香奈儿十年分红达210亿美元。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键词：&lt;/strong&gt;伊朗停火、特朗普、中国矿难、AI IPO、OpenAI、DeepSeek、知识图谱、波兰增兵&lt;/p&gt;
+&lt;h2&gt;技术精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://openai.com/index/gartner-2026-agentic-coding-leader&quot;&gt;OpenAI获Gartner企业编码代理领导者认证&lt;/a&gt; &lt;span&gt;(OpenAI News)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;2026年Gartner魔力象限中，OpenAI因Codex的创新性和企业部署能力被评为企业AI编码代理领导者。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://huggingface.co/blog/nvidia/nemotron-labs-diffusion&quot;&gt;NVIDIA推扩散语言模型，实现近光速文本生成&lt;/a&gt; &lt;span&gt;(Hugging Face Blog)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;NVIDIA发布Nemotron-Labs扩散语言模型，在文本生成速度上取得突破，大幅提升推理效率。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/&quot;&gt;Google I/O揭示AI驱动科学新路径&lt;/a&gt; &lt;span&gt;(MIT Tech Review AI)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;在Google I/O主题演讲中，DeepMind CEO Hassabis宣称人类正站在奇点山麓，AI将加速科学发现。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://linux.do/t/topic/2232185&quot;&gt;DeepSeek API完成提速扩容，支持500并发&lt;/a&gt; &lt;span&gt;(LinuxDo)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;DeepSeek宣布API输出速度提升、服务更稳定，默认支持500并发，企业用户可在线申请更大并发。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Lum1104/Understand-Anything&quot;&gt;Understand-Anything：代码转交互式知识图谱&lt;/a&gt; &lt;span&gt;(GitHub Trending)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;开源项目可将任意代码库转化为交互式知识图谱，支持搜索、提问，兼容Claude Code、Codex、Cursor等编码代理，大幅提升代码理解效率。&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;财经精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12&quot;&gt;SpaceX、OpenAI与Anthropic IPO挑战AI泡沫承受力&lt;/a&gt; &lt;span&gt;(Financial Times)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;三家AI巨头筹备IPO，埃隆·马斯克、山姆·奥特曼和达里奥·阿莫迪竞相争夺华尔街最深资本池。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ft.com/content/d0fc0074-86f1-46ec-bf80-9bbb6abb2c24&quot;&gt;美国石油商从伊朗冲突中增产套利&lt;/a&gt; &lt;span&gt;(Financial Times)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;钻井扩张紧随全球供应紧张导致油价上涨40%，但这也影响总统支持率。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ft.com/content/6d5df0df-74b3-4be9-a1ec-27322e1c3184&quot;&gt;Uber提出100亿欧元收购Delivery Hero&lt;/a&gt; &lt;span&gt;(Financial Times)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;德国食品配送集团Delivery Hero收到Uber和DoorDash的收购意向，估值约100亿欧元。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bbc.com/news/articles/ce9py7nx8j4o?at_medium=RSS&amp;amp;at_campaign=rss&quot;&gt;英国4月借贷创疫情以来新高&lt;/a&gt; &lt;span&gt;(BBC Business)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;英国4月公共借贷高于预期，零售销售因燃油价格飙升而下滑。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/news/videos/2026-05-23/chanel-s-mega-dividend-brings-owners-windfall-to-21b-video&quot;&gt;香奈儿巨额分红令所有者十年入账210亿美元&lt;/a&gt; &lt;span&gt;(Bloomberg Markets)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;Chanel在奢侈品行业低迷期逆势繁荣，其所有者家族过去十年通过分红至少获得210亿美元。&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;时政精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/world/2026/may/23/iran-hosts-pakistani-delegation-diplomacy-to-avert-new-us-strikes&quot;&gt;特朗普今日决定伊朗停火提议，霍尔木兹博弈加剧&lt;/a&gt; &lt;span&gt;(The Guardian)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;特朗普称将与美方谈判代表会面，审查伊朗最新停火提议，可能性为五五开；同时分析认为霍尔木兹封锁考验双方经济耐力。（多家报道）&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/world/2026/may/23/china-mine-explosion-shanxi-deaths-xi-jinping&quot;&gt;中国山西矿难致82死，习近平指示全力救援&lt;/a&gt; &lt;span&gt;(The Guardian)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;山西省一煤矿发生瓦斯爆炸，造成至少82人死亡，习近平要求当局全力以赴救援。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.npr.org/2026/05/23/nx-s1-5831245/nato-allies-confused-by-trumps-unexpected-move-to-deploy-5-000-u-s-troops-to-poland&quot;&gt;特朗普宣布向波兰增兵五千，北约联盟困惑&lt;/a&gt; &lt;span&gt;(NPR World)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;特朗普在缩减驻欧美军同时，意外宣布向波兰增兵5000，令北约盟国感到困惑。（多家报道）&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;编辑短评：&lt;/strong&gt;从地缘博弈到AI创新，从矿难悲剧到资本盛宴，今日新闻折射世界的复杂与无常。保持警惕，冷静观察。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日完整 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[时政] 特朗普宣布向波兰增兵 5000，北约盟国困惑</title>
-      <link>https://www.npr.org/2026/05/23/nx-s1-5831245/nato-allies-confused-by-trumps-unexpected-move-to-deploy-5-000-u-s-troops-to-poland</link>
-      <guid isPermaLink="false">https://www.npr.org/2026/05/23/nx-s1-5831245/nato-allies-confused-by-trumps-unexpected-move-to-deploy-5-000-u-s-troops-to-poland</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;NPR World&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;特朗普宣布向波兰增兵 5000 人，作为奖励右翼赢大选，但北约盟友对撤军又增军的矛盾信号感到困惑。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[时政] 以色列空袭黎巴嫩，伊朗开展外交斡旋</title>
-      <link>https://www.theguardian.com/world/2026/may/23/iran-hosts-pakistani-delegation-diplomacy-to-avert-new-us-strikes</link>
-      <guid isPermaLink="false">https://www.theguardian.com/world/2026/may/23/iran-hosts-pakistani-delegation-diplomacy-to-avert-new-us-strikes</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;The Guardian&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;以色列空袭黎巴嫩致医护人员伤亡，伊朗在霍尔木兹对峙并与巴基斯坦代表团会谈，缓解紧张局势努力。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] 苹果最新妙控触摸板和 Linux 适配的好吗?</title>
-      <link>https://www.v2ex.com/t/1210536</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1210536</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;32 回复 · Linux 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] ubuntu 24.04 今天点击更新后，蓝牙鼠标不能用了。</title>
-      <link>https://www.v2ex.com/t/1210138</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1210138</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;14 回复 · Linux 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] [开源] 我正在用 Python 复刻经典游戏红色警戒 2</title>
-      <link>https://www.v2ex.com/t/1209881</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1209881</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;16 回复 · Python 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] 把电脑伪装成电视，用 DLNA 投屏拿到视频号直播流地址</title>
-      <link>https://www.v2ex.com/t/1206122</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1206122</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;17 回复 · Python 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] 爬虫开发工作中，你们是如何基于 AI 进行提效的？</title>
-      <link>https://www.v2ex.com/t/1204542</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1204542</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;17 回复 · Python 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] 英国4月借贷达疫情以来最高水平</title>
-      <link>https://www.bbc.com/news/articles/ce9py7nx8j4o?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="false">https://www.bbc.com/news/articles/ce9py7nx8j4o?at_campaign=rss&amp;at_medium=RSS</guid>
+      <title>DailyBrief 精选 - 2026-05-23</title>
+      <link>https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html</link>
+      <guid isPermaLink="false">dailybrief:main:2026-05-23</guid>
       <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
-      <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;BBC Business&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;英国4月公共借贷超预期，零售销售下滑，燃料价格飙升对财政造成压力，借贷创疫情后最高。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[时政] 山西煤矿爆炸致82死 16年来最严重矿难</title>
-      <link>https://www.bbc.com/news/articles/c5y0ve18qlko?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="false">https://www.bbc.com/news/articles/c5y0ve18qlko?at_campaign=rss&amp;at_medium=RSS</guid>
-      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
-      <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;BBC World&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;山西省一煤矿发生爆炸，造成至少82人死亡，这是中国16年来最严重的矿难事故。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 10/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[时政] 美伊官员称停火谈判接近达成协议</title>
-      <link>https://www.nytimes.com/2026/05/23/world/middleeast/iran-us-israel-ceasefire-talks.html</link>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/05/23/world/middleeast/iran-us-israel-ceasefire-talks.html</guid>
-      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
-      <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;NYT World&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;美国与伊朗官员释放积极信号，表示停火谈判接近达成协议，但中东民众仍担忧再爆冲突。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 9/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[时政] 特朗普宣布向波兰增兵5000 北约盟友困惑</title>
-      <link>https://www.dw.com/zh/奖励-铁杆盟友？特朗普称将向波兰增兵五千/a-77273295?maca=chi-rss-chi-all-1127-rdf</link>
-      <guid isPermaLink="false">https://www.dw.com/zh/%E5%A5%96%E5%8A%B1-%E9%93%81%E6%9D%86%E7%9B%9F%E5%8F%8B%EF%BC%9F%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E5%B0%86%E5%90%91%E6%B3%A2%E5%85%B0%E5%A2%9E%E5%85%B5%E4%BA%94%E5%8D%83/a-77273295?maca=chi-rss-chi-all-1127-rdf</guid>
-      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
-      <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DW 中文&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;美国总统特朗普宣布向波兰增派5000美军，称此举为奖励铁杆盟友，但北约盟友对此感到困惑。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] 这一瞬间感觉被 AI 击中了</title>
-      <link>https://www.v2ex.com/t/1214883</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1214883</guid>
-      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;16 回复 · 程序员 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] qwen3.7-max 的代码能力提升非常大</title>
-      <link>https://www.v2ex.com/t/1214878</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1214878</guid>
-      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;34 回复 · 程序员 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[技术] OpenAI模型推翻离散几何猜想，AI破解80年数学难题</title>
-      <link>https://openai.com/index/model-disproves-discrete-geometry-conjecture</link>
-      <guid isPermaLink="false">https://openai.com/index/model-disproves-discrete-geometry-conjecture</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>DailyBrief</category>
+      <category>精选</category>
       <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI模型解决了单位距离问题，推翻了离散几何中的经典猜想，标志着AI在数学研究中的里程碑。多项报道称，该成果仅花费不到1000美元计算成本。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 10/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[技术] Anthropic举办“Code with Claude”开发者活动</title>
-      <link>https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/</link>
-      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Anthropic在伦敦举办为期两天的开发者活动，展示AI辅助编程的前沿能力，与Google I/O同期进行。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 9/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[技术] Google I/O发布Gemini 3.5 Flash及Gemini Omni</title>
-      <link>https://news.smol.ai/issues/26-05-19-not-much/</link>
-      <guid isPermaLink="false">https://news.smol.ai/issues/26-05-19-not-much/</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Smol AI News&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Google在I/O上重新定位Gemini为消费AI与开发者平台，发布快速模型Gemini 3.5 Flash、多模态Omni及代理栈，强化Agent能力。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[技术] DeepMind利用AI加速发现逆转细胞衰老的遗传因子</title>
-      <link>https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</link>
-      <guid isPermaLink="false">https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>技术</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;生物学家借助DeepMind的Co-Scientist系统，快速找到可成功恢复人类细胞活性的新因子，推动抗衰老研究。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] 通胀担忧升温，抵押贷款利率创八月来新高，金价下跌</title>
-      <link>https://www.bloomberg.com/news/videos/2026-05-21/mortgage-rates-hit-highest-since-august-video</link>
-      <guid isPermaLink="false">https://www.bloomberg.com/news/videos/2026-05-21/mortgage-rates-hit-highest-since-august-video</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
       <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Bloomberg Markets&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;美国抵押贷款利率升至8月以来最高，受中东冲突推高油价影响；金价因利率路径不确定性走低。经济学家预警市场风险持续累积。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 9/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] 沃尔玛警告消费者因油价上涨削减支出</title>
-      <link>https://www.bbc.com/news/articles/cj9prkzwr8vo?at_medium=RSS&amp;at_campaign=rss</link>
-      <guid isPermaLink="false">https://www.bbc.com/news/articles/cj9prkzwr8vo?at_campaign=rss&amp;at_medium=RSS</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;BBC Business&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;零售巨头沃尔玛表示，高油价正在挤压家庭预算，预计未来数月消费者将减少开支，公司利润受损。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] SpaceX、OpenAI、Anthropic IPO预计引发华尔街交易热潮</title>
-      <link>https://www.ft.com/content/970b1bab-ca00-4ea1-8964-a59ea431de6e</link>
-      <guid isPermaLink="false">https://www.ft.com/content/970b1bab-ca00-4ea1-8964-a59ea431de6e</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Financial Times&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;多只AI与航天公司IPO在即，被动基金需抛售大量股票为新股腾出空间，高盛赢取SpaceX主承销权。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[市场] 英国财政大臣宣布减税与生活成本一揽子措施</title>
-      <link>https://www.ft.com/content/af3b8719-e9be-4228-9bf9-921f77ad2448</link>
-      <guid isPermaLink="false">https://www.ft.com/content/af3b8719-e9be-4228-9bf9-921f77ad2448</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>市场</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Financial Times&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;市场&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;瑞秋·里夫斯宣布通过堵塞石油集团税收漏洞筹集资金，用于降低夏季景点增值税、儿童餐等，缓解家庭压力。（多家报道）&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[时政] 强大厄尔尼诺正在形成，历史预示严重冲击</title>
-      <link>https://www.nytimes.com/2026/05/21/climate/el-nino-history-famine.html</link>
-      <guid isPermaLink="false">https://www.nytimes.com/2026/05/21/climate/el-nino-history-famine.html</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
       <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;NYT World&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;研究人员警告，正在形成的厄尔尼诺规模堪比历史上最严重事件，可能引发粮食危机、灾害等全球后果。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 9/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h1&gt;山西煤矿爆炸致82死 16年来最严重矿难&lt;/h1&gt;
+&lt;p&gt;中国山西发生16年来最严重矿难，至少82人遇难；美伊停火谈判接近达成，伊朗与巴基斯坦也展开外交；特朗普宣布向波兰增兵5000，令北约盟友困惑。科技方面，OpenAI被Gartner评为企业编码Agent领导者，英伟达推出扩散语言模型实现高速文本生成，DeepSeek API完成提速扩容，谷歌DeepMind启动亚太加速器用AI应对环境风险。财经方面，中东局势推高油价，美国石油生产商增产；SpaceX、OpenAI、Anthropic三大AI公司竞相IPO；Chanel所有者获210亿美元股息；Uber和DoorDash考虑竞购Delivery Hero；英国4月借贷达疫情后最高水平。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键词：&lt;/strong&gt;山西煤矿爆炸、美伊停火、波兰增兵、石油价格、AI公司IPO、OpenAI Gartner、英伟达扩散模型、DeepSeek提速&lt;/p&gt;
+&lt;h2&gt;技术精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://openai.com/index/gartner-2026-agentic-coding-leader&quot;&gt;OpenAI获Gartner评为企业编码Agent领导者&lt;/a&gt; &lt;span&gt;(OpenAI News)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;OpenAI被Gartner Magic Quadrant评为企业AI编码Agent领导者，Codex因创新和企业级部署能力获认可。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://huggingface.co/blog/nvidia/nemotron-labs-diffusion&quot;&gt;英伟达发布扩散语言模型Nemotron-Labs&lt;/a&gt; &lt;span&gt;(Hugging Face Blog)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;英伟达推出Nemotron-Labs扩散语言模型，号称可实现光速级文本生成，显著提升文本生成效率。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://linux.do/t/topic/2232185&quot;&gt;DeepSeek API完成提速与扩容&lt;/a&gt; &lt;span&gt;(LinuxDo)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;DeepSeek官方宣布API已完成输出提速和服务扩容，默认支持500并发，企业可申请更大并发。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Lum1104/Understand-Anything&quot;&gt;Understand-Anything将代码转为知识图谱&lt;/a&gt; &lt;span&gt;(GitHub Trending)&lt;/span&gt; &lt;span&gt;重要性 6/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;开源项目可将任意代码库转为交互式知识图谱，支持搜索和提问，帮助开发者快速理解复杂代码。适用于主流AI编码助手，如Claude Code、Codex等。&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;财经精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ft.com/content/d0fc0074-86f1-46ec-bf80-9bbb6abb2c24&quot;&gt;美国石油增产以捕获伊朗战争推高的油价&lt;/a&gt; &lt;span&gt;(Financial Times)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;美国石油生产商扩大钻井以利用伊朗战争导致油价飙升的机会，油价上涨约40%，对总统支持率构成压力。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12&quot;&gt;SpaceX、OpenAI和Anthropic IPO将考验AI热潮上限&lt;/a&gt; &lt;span&gt;(Financial Times)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;马斯克、奥特曼和阿莫迪争相吸引华尔街资本，三大AI公司IPO将测试市场对AI泡沫的承受力。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/news/videos/2026-05-23/chanel-s-mega-dividend-brings-owners-windfall-to-21b-video&quot;&gt;Chanel巨额股息为所有者带来210亿美元回报&lt;/a&gt; &lt;span&gt;(Bloomberg Markets)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;香奈儿亿万富翁家族在过去十年通过股息获得至少210亿美元，成为奢侈品市场低迷中的赢家。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ft.com/content/6d5df0df-74b3-4be9-a1ec-27322e1c3184&quot;&gt;Uber和DoorDash考虑竞购Delivery Hero&lt;/a&gt; &lt;span&gt;(Financial Times)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;美国外卖竞争对手Uber和DoorDash正在评估收购德国集团Delivery Hero的股份，可能提出全面收购要约。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bbc.com/news/articles/ce9py7nx8j4o?at_medium=RSS&amp;amp;at_campaign=rss&quot;&gt;英国4月借贷达疫情以来最高水平&lt;/a&gt; &lt;span&gt;(BBC Business)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;英国4月公共借贷超预期，零售销售下滑，燃料价格飙升对财政造成压力，借贷创疫情后最高。&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;时政精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bbc.com/news/articles/c5y0ve18qlko?at_medium=RSS&amp;amp;at_campaign=rss&quot;&gt;山西煤矿爆炸致82死 16年来最严重矿难&lt;/a&gt; &lt;span&gt;(BBC World)&lt;/span&gt; &lt;span&gt;重要性 10/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;山西省一煤矿发生爆炸，造成至少82人死亡，这是中国16年来最严重的矿难事故。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/2026/05/23/world/middleeast/iran-us-israel-ceasefire-talks.html&quot;&gt;美伊官员称停火谈判接近达成协议&lt;/a&gt; &lt;span&gt;(NYT World)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;美国与伊朗官员释放积极信号，表示停火谈判接近达成协议，但中东民众仍担忧再爆冲突。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dw.com/zh/奖励-铁杆盟友？特朗普称将向波兰增兵五千/a-77273295?maca=chi-rss-chi-all-1127-rdf&quot;&gt;特朗普宣布向波兰增兵5000 北约盟友困惑&lt;/a&gt; &lt;span&gt;(DW 中文)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;美国总统特朗普宣布向波兰增派5000美军，称此举为奖励铁杆盟友，但北约盟友对此感到困惑。（多家报道）&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;编辑短评：&lt;/strong&gt;山西矿难与美伊停火同日形成强烈反差，AI资本竞赛趋于白热化。地缘风险持续影响能源市场，科技高歌猛进但泡沫争议犹存。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日完整 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[时政] 欧盟推进对美贸易协议，力避特朗普加征关税</title>
-      <link>https://www.dw.com/zh/欧盟推进落实对美贸易协议-力避特朗普加征关税/a-77247553?maca=chi-rss-chi-all-1127-rdf</link>
-      <guid isPermaLink="false">https://www.dw.com/zh/%E6%AC%A7%E7%9B%9F%E6%8E%A8%E8%BF%9B%E8%90%BD%E5%AE%9E%E5%AF%B9%E7%BE%8E%E8%B4%B8%E6%98%93%E5%8D%8F%E8%AE%AE-%E5%8A%9B%E9%81%BF%E7%89%B9%E6%9C%97%E6%99%AE%E5%8A%A0%E5%BE%81%E5%85%B3%E7%A8%8E/a-77247553?maca=chi-rss-chi-all-1127-rdf</guid>
+      <title>DailyBrief 精选 - 2026-05-22</title>
+      <link>https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html</link>
+      <guid isPermaLink="false">dailybrief:main:2026-05-22</guid>
       <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>DailyBrief</category>
+      <category>精选</category>
+      <category>技术</category>
+      <category>市场</category>
       <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DW 中文&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;欧盟就取消美国商品进口关税的立法达成临时协议，力争在7月4日截止前完成最终投票，避免贸易摩擦升级。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 8/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[时政] 美国共和党加速通过720亿美元移民执法拨款</title>
-      <link>https://www.npr.org/2026/05/21/g-s1-123307/up-first-newsletter-congress-ice-border-patrol-funding-iran-war-raul-castro</link>
-      <guid isPermaLink="false">https://www.npr.org/2026/05/21/g-s1-123307/up-first-newsletter-congress-ice-border-patrol-funding-iran-war-raul-castro</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>时政</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;NPR World&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;时政&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;共和党人紧急推动大规模移民执法资金法案，同时美国司法部起诉古巴前总统劳尔·卡斯特罗涉1996年击落飞机案。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;入选今日 LLM 精选，重要性评分 7/10。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] 如何消除 vibe code 产生的技术债？</title>
-      <link>https://www.v2ex.com/t/1214452</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1214452</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;25 回复 · 程序员 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] 尼区 Apple ID 充了 101410 奈拉闲鱼礼品卡，这余额还能救吗？</title>
-      <link>https://www.v2ex.com/t/1213969</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1213969</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;43 回复 · Apple 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] 不要从 Turgame 上购买土区礼品卡！</title>
-      <link>https://www.v2ex.com/t/1213925</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1213925</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;20 回复 · Apple 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>[社区] 记录一次京东以旧换新 15pm -&gt; 17pm</title>
-      <link>https://www.v2ex.com/t/1213831</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1213831</guid>
-      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;29 回复 · Apple 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;h1&gt;AI模型推翻80年离散几何猜想&lt;/h1&gt;
+&lt;p&gt;今日，AI基础科学取得里程碑式突破：OpenAI模型成功推翻存在80年的单位距离猜想，证明AI可在纯数学领域做出原创贡献。Anthropic在伦敦举办“Code with Claude”开发者活动，展示AI编程的未来；Google I/O发布Gemini 3.5 Flash及Omni，强化代理平台。宏观层面，通胀担忧压制市场，美国抵押贷款利率升至8月来最高，金价承压；沃尔玛警告消费者因油价上涨削减支出。英国宣布减税措施以缓解生活成本。国际方面，强厄尔尼诺正在形成，历史预示严重冲击；欧盟通过临时协议避免美国关税，美国国会加速推进移民执法拨款。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;关键词：&lt;/strong&gt;AI、OpenAI、离散几何、Anthropic、Google I/O、通胀、沃尔玛、厄尔尼诺&lt;/p&gt;
+&lt;h2&gt;技术精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://openai.com/index/model-disproves-discrete-geometry-conjecture&quot;&gt;OpenAI模型推翻离散几何猜想，AI破解80年数学难题&lt;/a&gt; &lt;span&gt;(OpenAI News)&lt;/span&gt; &lt;span&gt;重要性 10/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;OpenAI模型解决了单位距离问题，推翻了离散几何中的经典猜想，标志着AI在数学研究中的里程碑。多项报道称，该成果仅花费不到1000美元计算成本。（多家报道）&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/&quot;&gt;Anthropic举办“Code with Claude”开发者活动&lt;/a&gt; &lt;span&gt;(MIT Tech Review AI)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;Anthropic在伦敦举办为期两天的开发者活动，展示AI辅助编程的前沿能力，与Google I/O同期进行。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://news.smol.ai/issues/26-05-19-not-much/&quot;&gt;Google I/O发布Gemini 3.5 Flash及Gemini Omni&lt;/a&gt; &lt;span&gt;(Smol AI News)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;Google在I/O上重新定位Gemini为消费AI与开发者平台，发布快速模型Gemini 3.5 Flash、多模态Omni及代理栈，强化Agent能力。（多家报道）&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/&quot;&gt;DeepMind利用AI加速发现逆转细胞衰老的遗传因子&lt;/a&gt; &lt;span&gt;(DeepMind Blog)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;生物学家借助DeepMind的Co-Scientist系统，快速找到可成功恢复人类细胞活性的新因子，推动抗衰老研究。&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;财经精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bloomberg.com/news/videos/2026-05-21/mortgage-rates-hit-highest-since-august-video&quot;&gt;通胀担忧升温，抵押贷款利率创八月来新高，金价下跌&lt;/a&gt; &lt;span&gt;(Bloomberg Markets)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;美国抵押贷款利率升至8月以来最高，受中东冲突推高油价影响；金价因利率路径不确定性走低。经济学家预警市场风险持续累积。（多家报道）&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bbc.com/news/articles/cj9prkzwr8vo?at_medium=RSS&amp;amp;at_campaign=rss&quot;&gt;沃尔玛警告消费者因油价上涨削减支出&lt;/a&gt; &lt;span&gt;(BBC Business)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;零售巨头沃尔玛表示，高油价正在挤压家庭预算，预计未来数月消费者将减少开支，公司利润受损。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ft.com/content/970b1bab-ca00-4ea1-8964-a59ea431de6e&quot;&gt;SpaceX、OpenAI、Anthropic IPO预计引发华尔街交易热潮&lt;/a&gt; &lt;span&gt;(Financial Times)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;多只AI与航天公司IPO在即，被动基金需抛售大量股票为新股腾出空间，高盛赢取SpaceX主承销权。（多家报道）&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ft.com/content/af3b8719-e9be-4228-9bf9-921f77ad2448&quot;&gt;英国财政大臣宣布减税与生活成本一揽子措施&lt;/a&gt; &lt;span&gt;(Financial Times)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;瑞秋·里夫斯宣布通过堵塞石油集团税收漏洞筹集资金，用于降低夏季景点增值税、儿童餐等，缓解家庭压力。（多家报道）&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;时政精选&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nytimes.com/2026/05/21/climate/el-nino-history-famine.html&quot;&gt;强大厄尔尼诺正在形成，历史预示严重冲击&lt;/a&gt; &lt;span&gt;(NYT World)&lt;/span&gt; &lt;span&gt;重要性 9/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;研究人员警告，正在形成的厄尔尼诺规模堪比历史上最严重事件，可能引发粮食危机、灾害等全球后果。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dw.com/zh/欧盟推进落实对美贸易协议-力避特朗普加征关税/a-77247553?maca=chi-rss-chi-all-1127-rdf&quot;&gt;欧盟推进对美贸易协议，力避特朗普加征关税&lt;/a&gt; &lt;span&gt;(DW 中文)&lt;/span&gt; &lt;span&gt;重要性 8/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;欧盟就取消美国商品进口关税的立法达成临时协议，力争在7月4日截止前完成最终投票，避免贸易摩擦升级。&lt;/small&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.npr.org/2026/05/21/g-s1-123307/up-first-newsletter-congress-ice-border-patrol-funding-iran-war-raul-castro&quot;&gt;美国共和党加速通过720亿美元移民执法拨款&lt;/a&gt; &lt;span&gt;(NPR World)&lt;/span&gt; &lt;span&gt;重要性 7/10&lt;/span&gt;&lt;br&gt;&lt;small&gt;共和党人紧急推动大规模移民执法资金法案，同时美国司法部起诉古巴前总统劳尔·卡斯特罗涉1996年击落飞机案。&lt;/small&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;编辑短评：&lt;/strong&gt;AI在基础科学领域取得突破令人振奋，但全球经济正面临通胀、油价与地缘风险的多重考验。市场需在创新与稳定之间寻找平衡。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日完整 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
