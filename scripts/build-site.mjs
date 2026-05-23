@@ -397,26 +397,41 @@ function renderAllDigestCard(items, meta) {
   ].filter(([, groupItems]) => groupItems.length > 0);
 
   const total = items.length;
+  const toc = groups
+    .map(([title, groupItems]) => `<li>${html(title)}：${groupItems.length} 条</li>`)
+    .join("\n");
   const sections = groups.map(([title, groupItems]) => renderDigestSection(`${title}（${groupItems.length}）`, groupItems));
 
   return `<h1>DailyBrief 全量索引 - ${html(meta.date)}</h1>
 <p>今日共收录 ${total} 条候选内容。条目仅包含来源暴露的标题、链接和短摘要；正文请打开原文查看。</p>
+<h2>目录</h2>
+<ul>
+${toc}
+</ul>
 ${sections.join("\n")}
 <p><a href="${html(meta.reportUrl)}">查看当日完整 DailyBrief</a></p>`;
 }
 
 function renderDigestSection(title, items) {
   return `<h2>${html(title)}</h2>
-<ul>
-${items.map(renderDigestListItem).join("\n")}
-</ul>`;
+${items.map(renderDigestCard).join("\n")}`;
 }
 
-function renderDigestListItem(item) {
+function renderDigestCard(item, index) {
   const summary = item.summary || item.excerpt || item.meta || "暂无摘要。";
-  const source = item.source ? ` <span>(${html(item.source)})</span>` : "";
-  const importance = item.importance ? ` <span>重要性 ${html(item.importance)}/10</span>` : "";
-  return `  <li><a href="${html(item.url)}">${html(item.title)}</a>${source}${importance}<br><small>${html(summary)}</small></li>`;
+  const meta = [
+    item.source,
+    item.importance ? `重要性 ${item.importance}/10` : "",
+    item.meta,
+  ]
+    .filter(Boolean)
+    .map(html)
+    .join(" · ");
+  const metaLine = meta ? `<p><em>${meta}</em></p>` : "";
+  const separator = index === 0 ? "" : "<hr>\n";
+  return `${separator}<h3><a href="${html(item.url)}">${html(item.title)}</a></h3>
+${metaLine}
+<p>${html(summary)}</p>`;
 }
 
 function renderItemCard(item) {
