@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>daily-brief community</title>
+    <link>https://sukisophie-127.github.io/DailyBrief/</link>
+    <description>Developer community discussions from sources such as V2EX, LinuxDo, and HN.</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 23 May 2026 17:19:41 GMT</lastBuildDate>
+    <atom:link href="https://sukisophie-127.github.io/DailyBrief/feeds/community.xml" rel="self" type="application/rss+xml" />
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <generator>daily-brief</generator>
+    <ttl>60</ttl>
+    <item>
+      <title>[社区] 让 AI 写产品官网还蛮困难，很磨时间，默认出的文案和样式都不太行，有什么技巧么？ 或者有啥神奇的 skill、prompt 可以提高效率？</title>
+      <link>https://www.v2ex.com/t/1214996</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214996</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;8 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] cc-switch 的全局路由方式，会有类似 sub2api 的特征，触发账号被 A 社风控吗?</title>
+      <link>https://www.v2ex.com/t/1214986</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214986</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;7 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] Paypal Plus 成本大赏，1毛钱左右吧</title>
+      <link>https://linux.do/t/topic/2232913</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2232913</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;最近Plus开通了不少。统计了一下基本成本。 邮箱：我用icloud和域名edu邮箱。成本算5分，icloud本来一直在开，就算附加服务。6块钱可以开900个邮箱。域名10块买的，理论也是无限 时间成本：用L站的注册机，2-3min一个号吧。每天弄2个。也就看个剧的时间。 总的来说：token自由啦！希望奥特曼不要大杀特杀了。已经回不到token贵的日子啦。 39 个帖子 - 31 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] DeepSeek API已完成提速和扩容</title>
+      <link>https://linux.do/t/topic/2232185</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2232185</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;DeepSeek API已完成输出提速与服务扩容。输出速度更快、服务更稳定，默认支持500并发同时在线。企业用户需要更大并发可在线申请。 20 个帖子 - 19 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 今晚那个男人还会出现吗？昨晚太爽了</title>
+      <link>https://linux.do/t/topic/2231725</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2231725</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;从12点一路用到早上6点 一直在跑 一直在修我那游戏的史山 一直困扰我的AI战斗和经济系统终于修完了 虽然随着引入新功能，现在问题更多了但实话实说 没用过这么爽的 56 个帖子 - 45 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 来了这么久了L站了，也没啥会的，就会找点资源。只能这样回馈佬友了，想要什么资源都可以找我。</title>
+      <link>https://linux.do/t/topic/2231634</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2231634</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;收集了挺多资源类型的网站，剧集呀，电影呀，游戏呀，windows安装包呀，反正杂七杂八的特别多，我也没啥特别厉害的能力，就囤囤鼠这块有点特长了，只能发挥我的特长，给佬友们回馈点我力所能及的东西了。 希望佬友们也别嫌弃了，我思考了一下午，入站这么久，嫖了大佬挺多资源的，一直当吸血虫默默的挺不好来着，就想着能看看自己能哪里能帮到佬友们。 115 个帖子 - 56 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 各位大佬，等级这个点赞是啥意思</title>
+      <link>https://linux.do/t/topic/2231562</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2231562</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;各位大佬，这个点赞是啥意思 47 个帖子 - 42 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] Agentic Engineering 的一些心得</title>
+      <link>https://www.v2ex.com/t/1214943</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214943</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;5 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 这夺...夺少钱？:distorted_face:</title>
+      <link>https://linux.do/t/topic/2231437</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2231437</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;本来接朋友，陪我换完电池然后我们逛了一天饿了，就去城中村吃个饭说是，但是这26对吗 不过味道还行，如果20块钱我还能给到不错，15块能给到夯，但是26我只能给到拉完了 23 个帖子 - 21 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 该吃细糠了！！这才是我们需要的回复样式！！(提示词4.0)</title>
+      <link>https://linux.do/t/topic/2231403</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2231403</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;接着：内嵌HTML代替纯Markdown：让大模型回复不再又臭又长(提示词3.0) - 开发调优 - LINUX DO 首先最近使用的案例展示： （点击了解更多详细信息） 目前最新案例使用的提示词： （点击了解更多详细信息） 根据我最近的体验情况，效果最好我认为是Claude系列模型，GPT5.5比5.4的主动性强不少，风格也好很多，国模相对其实表现都还可以。 如果要用GPT模型的话，建议狠狠地肘击他，不然回复还是很长，我提供一个我自己用的 你的回复结构和排版通常默认完全奔放，长度过于冗长，使用户觉得信息密度过低且视觉疲劳，请合理利用HTML内嵌能力形成更好的的深思熟虑的、规划完善的回复结构，&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 写了首诗，给各位佬友看看，名字还没想好</title>
+      <link>https://linux.do/t/topic/2231390</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2231390</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;曾因酒醉鞭快马，哪知乘风惊佳人。 25 个帖子 - 25 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 为什么我说Cherry Studio的含工具上下文设计存在严重缺陷</title>
+      <link>https://linux.do/t/topic/2231279</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2231279</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;起因 昨天我在评论区看到有人询问想用大模型来做一些工作，求一个客户端推荐，下面有人推荐了CherryStudio，并且特别强调它的工具功能非常完善，这让我没忍住开了口，因为这与我长期使用cherry后得出的结论完全相反，所以我做出了反驳，用词比较激进。 激进的原因也很简单：早在很久之前，我就已经针对这个问题提过 issue，并且做了相当详细的复现和展示，但没有得到任何回复。 真正让我决定写这篇文章的，是另一位网友接下来的回复。 对方的回复非常长，全面且看上去谨慎细致严谨，甚至引用了一些源码的描述来证明cherry的工具机制是没有问题的，但读下来我几乎可以肯定这是一段借助ai解读源码后的回复，问&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 【Neb 公益站】换个域名</title>
+      <link>https://linux.do/t/topic/2231158</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2231158</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的站点存在登录，并已接入 LINUX DO Connect： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 我也打算加入公益中转站一员了，弱弱的问几个问题</title>
+      <link>https://linux.do/t/topic/2230701</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2230701</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;token开始用不完了，又不想浪费，加上自己VPS好几个，感觉可以利用起来 我朋友在海外使用的延迟： 如果做公益站的话，目前我这个配置，大概只能经得住多少人同时使用呢？ 求佬们提提意见，我这个配置，大概能带得动多少人同时使用 另外我自建的转长链网站、CPA转换网站、公益PayPal接码网站目前已迁移到新服务器 （点击了解更多详细信息） 接收了3000次短信 （点击了解更多详细信息） 又想弄个公益中转给佬们一起消耗一下号池的token，又怕佬们太热情一下子把服务器撑爆 50 个帖子 - 35 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 【五十天已至，我已飞升！】终于突破天数桎梏了！</title>
+      <link>https://linux.do/t/topic/2230586</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2230586</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;昨天截的图哈哈哈，当时只是满足要求，真要升三级还是要等凌晨四点 之前看有佬友发飞升贴被说还不是三级，我这次特意防了一手 其实很早之前就已经了解过L站了，但是当时只是在站外刷刷帖子 真诚、友善、团结、专业，共建你我引以为荣之社区。 进站之后高强度刷贴互动，升三级的条件很快就只剩时间了 剧透 终于！今天！我已突破！ 已体验的三级特权清单： 三级专属动态头像已换 剧透 L站专属邮箱已申请 Connect - LINUX DO Connect（右侧专属邮箱） AI机器人目前无法使用，PASS 三级贴，正准备严肃观看！ 账户-偏好设置-头衔-活跃用户 已设置 账户-偏好设置-资质新增了三级用户的火焰 最&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 梁圣,我能做的就这么多了</title>
+      <link>https://linux.do/t/topic/2230582</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2230582</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;今天看到DeepSeek 固定1/4折扣后, 我就决定以拿deepSeek 做代码审核, 我用codex的生成的代码, 叫DeepSeek 做代码审核, 乖孩子快快吃,早早长大,以后越来越强 11 个帖子 - 9 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 搭建了个壁纸站，仅支持linuxdo登陆（1级即可），二级用户可开启nsfw</title>
+      <link>https://linux.do/t/topic/2230579</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2230579</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;继小说整理https://linux.do/t/topic/2207236，最近又把网上收集的高质量壁纸给整理下 PixelPunk进行二次开发 https://wallpaper.pkll.de/ 22 个帖子 - 16 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 发现 google pay 买 gpt 5x 没有多 25 刀的“税”， claude 就有</title>
+      <link>https://www.v2ex.com/t/1214904</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214904</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;11 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 一觉睡到了中午，收到了各大企业、公司的祝福</title>
+      <link>https://linux.do/t/topic/2230421</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2230421</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;只有各大企业、公司的生日快乐祝福； 有点难过，没人记得我生日吗？ 好像只有父母会记得（家里在农村只过农历）。 13 个帖子 - 10 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] Antigravity IDE 我咋感觉比 Antigravity/Codex APP 好用啊</title>
+      <link>https://www.v2ex.com/t/1214901</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214901</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;6 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] [开源自荐]续温 --一款将聊天记录炼成陪伴AI的简单项目</title>
+      <link>https://linux.do/t/topic/2230046</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2230046</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;本帖使用社区开源推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的帖子已经打上 开源推广 标签： 是 我的开源项目完整开源，无未开源部分： 是 我的开源项目已链接认可 LINUX DO 社区： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出 佬们觉得用向量数据库炼化人的聊天记录的陪伴AI有搞头吗 开发调优 从此贴继续讨论，感谢各位佬友的提议，基本都按照提议优化了下 Afterglow 是一个&amp;quot;AI 朋友&amp;quot;程序，将好友的聊天记录导入向量库，配合项目的多个机制&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] gmail注册大法</title>
+      <link>https://linux.do/t/topic/2229997</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229997</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;美住宅ip基本可以秒下号，跳过手机号绑定，成功后到gmail再去完善+86，地址填一个US的，可以秒gemini，不用went wrong，不用写小作文申诉 11 个帖子 - 9 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] deepseek永久降价能否替代gpt？</title>
+      <link>https://linux.do/t/topic/2229927</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229927</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;deepseek宣布永久降价为原价的1/4，这个用量上来说非常的划算，实际体验缓存也是很高(用着确实没了token焦虑，冲十块钱用好久)。再次基础上deepseek能否完全平替gpt，智力差距有多少呢？ 71 个帖子 - 68 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 感谢冰佬，wen佬，L佬给我送邀请码!!!</title>
+      <link>https://linux.do/t/topic/2229673</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229673</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;关于我昨天发布的一个话题 关于为了进冰佬的公益站，我手搓了四个gptplus求LDC这件事...... 37 个帖子 - 25 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 有多少佬是单双休的工作的。今天依旧上班</title>
+      <link>https://linux.do/t/topic/2229595</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229595</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;周六还要上班，人都没睡醒。看到路上人都比平时少了 85 个帖子 - 72 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] ChatGPT推出PPT插件</title>
+      <link>https://linux.do/t/topic/2229575</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229575</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;插件安装地址如下：ChatGPT 25 个帖子 - 21 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 大事不妙，要被偷家了。兄弟们！！来看看小村里小卖铺的零食的包装</title>
+      <link>https://linux.do/t/topic/2229466</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229466</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;这怎么得了啊。再过几年，身边娃娃要有黑娃了！！！！ 啊啊啊！！要被偷家了 补一张图，这玩意里面是这样的 34 个帖子 - 33 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] Deepseek宣布永久降价</title>
+      <link>https://linux.do/t/topic/2229394</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229394</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;官方网站定价文档消息更新了，deepseek-v4-pro 模型 API 价格将于北京时间 2026/05/31 23:59 结束 2.5 折优惠活动后，正式调整为原定价的 1/4 35 个帖子 - 28 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 新人第一帖【image2生图公益站】兑换码自取</title>
+      <link>https://linux.do/t/topic/2229012</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229012</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容： 我的项目是免费使用的，无收费（变相收费、赞助）部分： 是 我的帖子已经打上 公益推广 标签： 是 我的项目属于个人项目，与公司或商业机构无关： 是 我的项目不存在QQ、TG等群组引流： 是 我的项目不存在非运营必要的网站引流： 是 我的项目不存在为他人推广、AFF： 是 我的项目无关联的商业项目： 是 我的站点存在登录，并已接入 LINUX DO Connect： 是 我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是 以上选择我承诺是永久有效的，接受社区和佬友监督： 是 以下为项目介绍正文内容，AI生成、润色内容已&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] DeepSeek转为永久2.5折</title>
+      <link>https://linux.do/t/topic/2228850</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2228850</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;22 个帖子 - 20 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] xdm，今天(2026/5/22)应该是 macbook air m5 16+512 拼多多最低的价格</title>
+      <link>https://www.v2ex.com/t/1214683</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214683</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;12 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] wgx 一个以性能优先 把 wireguard 网络转成 socks5 代理的工具</title>
+      <link>https://www.v2ex.com/t/1214629</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214629</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · Linux 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 美区 apple id 如何购买 国行 watch 的 ac+</title>
+      <link>https://www.v2ex.com/t/1214518</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214518</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 小白求推荐人工智能学习的网课</title>
+      <link>https://www.v2ex.com/t/1214517</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214517</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;7 回复 · Python 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] grok 订阅跨设备同步遇到问题！</title>
+      <link>https://www.v2ex.com/t/1214476</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214476</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] Ipnoe 截屏好像不会存到相册了。 版本是 IOS26.5</title>
+      <link>https://www.v2ex.com/t/1214441</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214441</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;5 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 有没有大佬搞过 Apple 新出的商务平台</title>
+      <link>https://www.v2ex.com/t/1214306</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214306</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;10 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 分享 tmux 快捷方式</title>
+      <link>https://www.v2ex.com/t/1213636</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1213636</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;11 回复 · Linux 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] zen 浏览器在 archlinux 中无法代理</title>
+      <link>https://www.v2ex.com/t/1213475</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1213475</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;5 回复 · Linux 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 如何理解 rust 闭包的借用值机制? 被借用的值在闭包内到底是什么类型?</title>
+      <link>https://www.v2ex.com/t/1212706</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1212706</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;5 回复 · Rust 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 从会议录音到知识库全自动：我把数百段录音做成了可 RAG 问答的 Wiki（附开源代码）</title>
+      <link>https://www.v2ex.com/t/1212230</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1212230</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;6 回复 · Python 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 苹果最新妙控触摸板和 Linux 适配的好吗?</title>
+      <link>https://www.v2ex.com/t/1210536</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1210536</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;32 回复 · Linux 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] ubuntu 24.04 今天点击更新后，蓝牙鼠标不能用了。</title>
+      <link>https://www.v2ex.com/t/1210138</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1210138</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;14 回复 · Linux 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] [开源] 我正在用 Python 复刻经典游戏红色警戒 2</title>
+      <link>https://www.v2ex.com/t/1209881</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1209881</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;16 回复 · Python 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 有准确绘制缠论中枢的 Python 代码借鉴么</title>
+      <link>https://www.v2ex.com/t/1209532</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1209532</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;7 回复 · Python 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 把电脑伪装成电视，用 DLNA 投屏拿到视频号直播流地址</title>
+      <link>https://www.v2ex.com/t/1206122</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1206122</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;17 回复 · Python 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 爬虫开发工作中，你们是如何基于 AI 进行提效的？</title>
+      <link>https://www.v2ex.com/t/1204542</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1204542</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;17 回复 · Python 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] Rust 真是非常适合 AI vibe coding 的语言</title>
+      <link>https://www.v2ex.com/t/1193799</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1193799</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;6 回复 · Rust 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] Pumpkin - 使用 Rust 开发的高性能 Minecraft 服务端</title>
+      <link>https://www.v2ex.com/t/1193208</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1193208</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;12 回复 · Rust 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 开源这两天 Vibe 的 Rust 重写的 OpenClaw</title>
+      <link>https://www.v2ex.com/t/1191509</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1191509</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;12 回复 · Rust 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 这一瞬间感觉被 AI 击中了</title>
+      <link>https://www.v2ex.com/t/1214883</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214883</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;16 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] qwen3.7-max 的代码能力提升非常大</title>
+      <link>https://www.v2ex.com/t/1214878</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214878</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;34 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] DeepSeek折扣永久25折，价格夯爆了！</title>
+      <link>https://linux.do/t/topic/2229738</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2229738</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;D老师再度发力，百万上下文普惠时代，价格永久25折，正式定价！ 19 个帖子 - 13 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 【CodeX】绝望了，一天封了800个 codex</title>
+      <link>https://linux.do/t/topic/2228957</link>
+      <guid isPermaLink="false">https://linux.do/t/topic/2228957</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;心塞啊，这些号都跟了我两个月了，都有感情了 21 个帖子 - 17 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 在凑合能用的前提下，哪家的 token 便宜管饱？</title>
+      <link>https://www.v2ex.com/t/1214492</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214492</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 如何消除 vibe code 产生的技术债？</title>
+      <link>https://www.v2ex.com/t/1214452</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214452</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;25 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 拼多多 618 开始时间是？想入 macbook air m5</title>
+      <link>https://www.v2ex.com/t/1214178</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214178</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;12 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 今年打游戏相同性价比体验最好的是 macbook m5max 对比 rog</title>
+      <link>https://www.v2ex.com/t/1214061</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214061</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 尼区 Apple ID 充了 101410 奈拉闲鱼礼品卡，这余额还能救吗？</title>
+      <link>https://www.v2ex.com/t/1213969</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1213969</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;43 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 不要从 Turgame 上购买土区礼品卡！</title>
+      <link>https://www.v2ex.com/t/1213925</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1213925</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;20 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 记录一次京东以旧换新 15pm -&gt; 17pm</title>
+      <link>https://www.v2ex.com/t/1213831</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1213831</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;29 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 用 MacBook neo 跑 Hermes agent 体验如何？</title>
+      <link>https://www.v2ex.com/t/1213771</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1213771</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;15 回复 · Apple 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] 升级到 fedora 44 后在 konsole 里打字时 cpu 占用很高的问题有 v 友也遇到了吗？</title>
+      <link>https://www.v2ex.com/t/1210067</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1210067</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;10 回复 · Linux 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] Ubuntu26.04 桌面端配置静态 IP 失败</title>
+      <link>https://www.v2ex.com/t/1209459</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1209459</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;6 回复 · Linux 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] [寻求帮助 Linux ] 用 rust 写了一个跨平台输入监听库（鼠标键盘）</title>
+      <link>https://www.v2ex.com/t/1185915</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1185915</guid>
+      <pubDate>Fri, 22 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · Rust 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-22/2026-05-22.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

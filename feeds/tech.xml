@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>daily-brief tech</title>
+    <link>https://sukisophie-127.github.io/DailyBrief/</link>
+    <description>Technology, AI, GitHub Trending, and developer ecosystem items.</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 23 May 2026 17:19:41 GMT</lastBuildDate>
+    <atom:link href="https://sukisophie-127.github.io/DailyBrief/feeds/tech.xml" rel="self" type="application/rss+xml" />
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <generator>daily-brief</generator>
+    <ttl>60</ttl>
+    <item>
+      <title>[技术] [AINews] All Model Labs are now Agent Labs</title>
+      <link>https://www.latent.space/p/ainews-all-model-labs-are-now-agent</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-all-model-labs-are-now-agent</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;报道指出，所有AI模型实验室均已转向智能体（Agent）实验室，行业趋势日益明显，多家机构整合相关研究。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models</title>
+      <link>https://huggingface.co/blog/nvidia/nemotron-labs-diffusion</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/nvidia/nemotron-labs-diffusion</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;NVIDIA推出Nemotron-Labs扩散语言模型，旨在实现接近光速的文本生成速度，提升AI文本生成效率。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] The Gemini app becomes more agentic, delivering proactive, 24/7 help</title>
+      <link>https://x.com/GeminiApp/status/2057974680242512071</link>
+      <guid isPermaLink="false">https://x.com/GeminiApp/status/2057974680242512071</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Gemini应用升级为主动式AI助手，新增直观UI、每日简报和Gemini Spark智能体，实现全天候任务协助，从被动响应转向主动服务。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@GeminiApp · 507.0K 粉丝 · 34.7K 阅 · 546 赞 · 42 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook</title>
+      <link>https://huggingface.co/blog/Dharma-AI/specialization-beats-scale</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/Dharma-AI/specialization-beats-scale</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;研究显示，专业化比规模更重要，这应是AI采购决策中的关键战略变量，但常被忽视。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Google I/O showed how the path for AI-driven science is shifting</title>
+      <link>https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Google DeepMind CEO Demis Hassabis在Google I/O大会上表示，人类正处于“奇点的山麓”，AI将在科学发现领域发挥更大作用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] 20 AI Concepts You Must Understand in 2026</title>
+      <link>https://x.com/sairahul1/status/2057740928908161461</link>
+      <guid isPermaLink="false">https://x.com/sairahul1/status/2057740928908161461</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;解读2026年必须掌握的20个AI概念，包括transformer、嵌入、RAG、智能体、RLHF等，帮助日用AI却不懂原理的用户建立系统认知。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@sairahul1 · 101.3K 粉丝 · 4.4M 阅 · 1.6K 赞 · 270 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer</title>
+      <link>https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-new-ai-infra-unicorns-exa</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;AI基础设施领域诞生新独角兽，Exa、Modal和TurboPuffer等公司获大额融资，市场持续火热。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Agentic Chat is Now Live on Venice</title>
+      <link>https://x.com/AskVenice/status/2057633603631350231</link>
+      <guid isPermaLink="false">https://x.com/AskVenice/status/2057633603631350231</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Venice 默认聊天升级为代理模式，自动拆解复杂任务并选择工具，一次对话即可生成文本、图像、视频和搜索结果，主打多模态输出。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@AskVenice · 66.9K 粉丝 · 5.0M 阅 · 801 赞 · 99 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] OpenAI named a Leader in enterprise coding agents by Gartner</title>
+      <link>https://openai.com/index/gartner-2026-agentic-coding-leader</link>
+      <guid isPermaLink="false">https://openai.com/index/gartner-2026-agentic-coding-leader</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI被Gartner评为2026年企业AI编码代理魔力象限领导者，Codex在创新和企业级部署方面获认可。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How Virgin Atlantic ships faster with Codex</title>
+      <link>https://openai.com/index/virgin-atlantic</link>
+      <guid isPermaLink="false">https://openai.com/index/virgin-atlantic</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;维珍大西洋航空利用OpenAI Codex加速移动应用改版，在节日截止日期前交付，实现了近全覆盖测试和零重大缺陷。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Anthropic Microsoft deal 🤝, Cursor $3B ARR 📈, cloud agent lessons 🤖</title>
+      <link>https://tldr.tech/ai/2026-05-22</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-22</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Anthropic与微软达成合作关系；Cursor年经常性收入达30亿美元；业界总结云代理应用经验教训。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Roundtables: Can AI Learn to Understand the World?</title>
+      <link>https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;MIT Tech Review举办圆桌讨论，探讨AI能否通过学习世界模型来理解外部世界，超越现有LLM的局限。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Giving Agents Computers — Ivan Burazin, Daytona</title>
+      <link>https://www.latent.space/p/daytona</link>
+      <guid isPermaLink="false">https://www.latent.space/p/daytona</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Daytona CEO透露公司月环比增长74%，日运行次数达85万，并推出裸金属沙箱和新代理云服务。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks</title>
+      <link>https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Google DeepMind在亚太地区启动加速器计划，支持利用AI技术应对环境风险的初创项目。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Scaling creativity in the age of AI</title>
+      <link>https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;文章探讨AI时代如何扩展创造力，从人类早期绘画到现代叙事，技术始终在媒介和分发中发挥核心作用。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] OptimAI Secures Support from Google for Startups Cloud Program</title>
+      <link>https://x.com/OptimaiNetwork/status/2057474142631252314</link>
+      <guid isPermaLink="false">https://x.com/OptimaiNetwork/status/2057474142631252314</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OptimAI获谷歌云创业支持，指出AI瓶颈从模型能力转向实时上下文、验证与执行等基础设施，强调从「聊」到「做」的转变。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@OptimaiNetwork · 98.3K 粉丝 · 6.4K 阅 · 515 赞 · 291 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Anthropic’s Code with Claude showed off coding’s future—whether you like it or not</title>
+      <link>https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Anthropic在伦敦举办Code with Claude活动，展示AI辅助编码的未来，该活动与Google I/O同一天举行。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] AdventHealth advances whole-person care with OpenAI</title>
+      <link>https://openai.com/index/adventhealth</link>
+      <guid isPermaLink="false">https://openai.com/index/adventhealth</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;AdventHealth采用OpenAI的ChatGPT for Healthcare，优化工作流、减轻行政负担，使医护人员有更多时间投入患者护理。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How to Actually Set Up Claude. 40 Features Most Users Have Never Touched</title>
+      <link>https://x.com/eng_khairallah1/status/2057393717657374813</link>
+      <guid isPermaLink="false">https://x.com/eng_khairallah1/status/2057393717657374813</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;揭示Claude的40个隐藏功能，指导用户从简单的聊天式使用进阶到高效工作流，发挥模型真正潜力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@eng_khairallah1 · 57.6K 粉丝 · 1.8M 阅 · 727 赞 · 87 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] OpenAI GPT-next disproves 80 year old Erdős planar unit distance problem for under $1000</title>
+      <link>https://www.latent.space/p/ainews-openai-gpt-next-disproves</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-openai-gpt-next-disproves</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI下一代GPT模型以不到1000美元的成本，推翻了一个存在80年的Erdos平面单位距离猜想，彰显AI数学能力。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] not much happened today</title>
+      <link>https://news.smol.ai/issues/26-05-21-not-much/</link>
+      <guid isPermaLink="false">https://news.smol.ai/issues/26-05-21-not-much/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Smol AI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;**RAEv2** advances representation-first tokenization with **&amp;gt;10x faster convergence** and improved generation, tested on **text-to-image** and **world models**. **NVIDIA&amp;#39;s Gated DeltaNet-2** innovates linear attention with channel-wise gates, outperforming **KDA** and **Mamba-3** at **1.3B parameter&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Anthropic SpaceX $45B deal 💰, Google Agent Executor ⚙️, OpenAI races to IPO 🏦</title>
+      <link>https://tldr.tech/ai/2026-05-21</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-21</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] D0 5.20 Launch: The AI Trading Dashboard That Works While You Sleep.</title>
+      <link>https://x.com/DonutAI/status/2057242031974736375</link>
+      <guid isPermaLink="false">https://x.com/DonutAI/status/2057242031974736375</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Donut AI发布D0完整交易仪表盘，首个专为代理打造的全自动闭环交易工具，实现无人值守盈利。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@DonutAI · 78.4K 粉丝 · 3.9K 阅 · 507 赞 · 45 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Railway: The Agent-Native Cloud — Jake Cooper</title>
+      <link>https://www.latent.space/p/railway</link>
+      <guid isPermaLink="false">https://www.latent.space/p/railway</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;3M Users, 100K Signups/Week, Own-Metal Data Centers, $200K+ Coding Agent Spend, and the Death of PRs&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Next-generation LLM Inference Network: How ZCube Alleviates Network Bottlenecks?</title>
+      <link>https://x.com/Zai_org/status/2057216685040443743</link>
+      <guid isPermaLink="false">https://x.com/Zai_org/status/2057216685040443743</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;分析ZCube如何缓解LLM推理网络的瓶颈：长上下文推理与Prefill-Decode分离使网络成为关键，ZCube针对性优化了集群通信。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@Zai_org · 80.0K 粉丝 · 73.3K 阅 · 501 赞 · 80 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Unit Distance</title>
+      <link>https://x.com/SebastienBubeck/status/2057187978720719114</link>
+      <guid isPermaLink="false">https://x.com/SebastienBubeck/status/2057187978720719114</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI内部模型解决离散几何中「单位距离」网格最优性猜想，以此证明AI可推动数学科学突破。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@SebastienBubeck · 75.8K 粉丝 · 101.3K 阅 · 605 赞 · 74 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Inference Engines for LLMs &amp; Local AI Hardware (2026 Edition)</title>
+      <link>https://x.com/TheAhmadOsman/status/2057183854444843202</link>
+      <guid isPermaLink="false">https://x.com/TheAhmadOsman/status/2057183854444843202</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;讨论LLM推理引擎选型思路：应先确定硬件策略、负载形态和服务模型，再选引擎，适合本地AI硬件部署场景。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@TheAhmadOsman · 59.1K 粉丝 · 162.6K 阅 · 512 赞 · 83 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Getting the most out of Codex</title>
+      <link>https://x.com/jxnlco/status/2057153744630890620</link>
+      <guid isPermaLink="false">https://x.com/jxnlco/status/2057153744630890620</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;X 推文 (AttentionVC)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;分享Codex高级用法：除代码审查、diff和PR外，大部分工作在于更广泛的编程任务，教你扩展编码代理的应用边界。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;补充：&lt;/strong&gt;@jxnlco · 63.7K 粉丝 · 29.0K 阅 · 523 赞 · 36 转&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] Google I/O 2026: Gemini 3.5 Flash, Omni (NanoBanana for Video), Spark (background agents), and Antigravity 2.0</title>
+      <link>https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-google-io-2026-gemini-35-flash</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Google has been busy!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] An OpenAI model has disproved a central conjecture in discrete geometry</title>
+      <link>https://openai.com/index/model-disproves-discrete-geometry-conjecture</link>
+      <guid isPermaLink="false">https://openai.com/index/model-disproves-discrete-geometry-conjecture</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] The next phase of OpenAI’s Education for Countries</title>
+      <link>https://openai.com/index/the-next-phase-of-education-for-countries</link>
+      <guid isPermaLink="false">https://openai.com/index/the-next-phase-of-education-for-countries</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How Ramp engineers accelerate code review with Codex</title>
+      <link>https://openai.com/index/ramp</link>
+      <guid isPermaLink="false">https://openai.com/index/ramp</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Gemini 3.5 Flash ⚡️, Karpathy joins Anthropic 🧑‍💻, OpenAI Guaranteed Capacity ⚡</title>
+      <link>https://tldr.tech/ai/2026-05-20</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-20</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Introducing OpenAI for Singapore</title>
+      <link>https://openai.com/index/introducing-openai-for-singapore</link>
+      <guid isPermaLink="false">https://openai.com/index/introducing-openai-for-singapore</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Roundtables: Inside the Musk v. Altman Trial</title>
+      <link>https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Listen to the session or watch below Elon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status. Watch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review, joins in&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] OlmoEarth v1.1: A more efficient family of Earth observation models</title>
+      <link>https://huggingface.co/blog/allenai/olmoearth-v1-1</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/allenai/olmoearth-v1-1</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Advancing content provenance for a safer, more transparent AI ecosystem</title>
+      <link>https://openai.com/index/advancing-content-provenance</link>
+      <guid isPermaLink="false">https://openai.com/index/advancing-content-provenance</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] How to land a job at a frontier lab (on Pretraining)</title>
+      <link>https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-how-to-land-a-job-at-a-frontier</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;a quiet day before google i/o lets us amplify a notable blogpost&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Here’s why Elon Musk lost his suit against OpenAI</title>
+      <link>https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;On Monday, the jury in Musk v. Altman dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it. Musk announce&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Introducing the Ettin Reranker Family</title>
+      <link>https://huggingface.co/blog/ettin-reranker</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/ettin-reranker</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Qwen 3.7 🤖, Cursor Composer 2.5 👨‍💻, Anthropic acquires Stainless 🛠️</title>
+      <link>https://tldr.tech/ai/2026-05-19</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-19</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Fast-tracking genetic leads to reverse cellular aging</title>
+      <link>https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Biologists use Co-Scientist to find novel factors that successfully rejuvenate human cells.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] What to expect from Google this week</title>
+      <link>https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/18/1137439/what-to-expect-from-google-this-week/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When Google opens its doors tomorrow for its annual developer conference, I/O, it will do so as a clear third place in the foundation model race. A year ago, at G&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Inside Anduril and Meta’s quest to make smart glasses for warfare</title>
+      <link>https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;The defense-tech company Anduril has shared new details about the augmented-reality headset for the military it’s prototyping with Meta, including a vision for ordering drone strikes via eye-tracking and voice commands. Quay Barnett, who leads the efforts as a vice president at Anduril following a c&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend</title>
+      <link>https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] The Open Agent Leaderboard</title>
+      <link>https://huggingface.co/blog/ibm-research/open-agent-leaderboard</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/ibm-research/open-agent-leaderboard</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] The Autonomous Drone Tech Stack &amp; Economics of Drones — Yaroslav Azhnyuk, The Fourth Law &amp; Guest Host Noah Smith, Noahpinion</title>
+      <link>https://www.latent.space/p/the-fourth-law</link>
+      <guid isPermaLink="false">https://www.latent.space/p/the-fourth-law</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Ukrainian drone founder Yaroslav Azhnyuk went from pet cameras to AI-guided weapons. He and guest host Noah Smith make the case that the West is asleep at the wheel.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments</title>
+      <link>https://openai.com/index/dell-codex-enterprise-partnership</link>
+      <guid isPermaLink="false">https://openai.com/index/dell-codex-enterprise-partnership</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] not much happened today</title>
+      <link>https://news.smol.ai/issues/26-05-18-not-much/</link>
+      <guid isPermaLink="false">https://news.smol.ai/issues/26-05-18-not-much/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Smol AI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;**Agent infrastructure** is advancing with **LangSmith Engine** providing CI/CD loops for agents and **SmithDB** enabling low-latency querying for observability. **Cognition&amp;#39;s Devin Auto-Triage** offers persistent automation for bug triage with memory and subagent structures. **Anthropic** improves &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Google I/O 2026: Gemini 3.5 Flash, Omni, and Google’s Agent Stack</title>
+      <link>https://news.smol.ai/issues/26-05-19-not-much/</link>
+      <guid isPermaLink="false">https://news.smol.ai/issues/26-05-19-not-much/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Smol AI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;**Google** announced at I/O the repositioning of **Gemini** as a consumer AI and developer/agent platform with three key releases: **Gemini 3.5 Flash** for fast agentic and coding tasks, **Gemini Omni** for multimodal generation and editing including video, and the expanded **Antigravity 2.0** agent&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Gemini Extended Thinking ✨, ChatGPT finance 📱, Claude Code at scale 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-05-18</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-18</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Simulate real-world places with Project Genie and Street View</title>
+      <link>https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;We’re expanding access to Google AI Ultra subscribers globally and introducing a new capability powered by Street View.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Introducing Gemini Omni</title>
+      <link>https://deepmind.google/blog/introducing-gemini-omni/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/introducing-gemini-omni/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Introducing Google Antigravity 2.0</title>
+      <link>https://deepmind.google/blog/introducing-google-antigravity-2-0/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/introducing-google-antigravity-2-0/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Gemini for Science: AI experiments and tools for a new era of discovery</title>
+      <link>https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;A collection of science tools and experiments to expand the scale and precision of scientific exploration.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Making it easier to understand how content was created and edited</title>
+      <link>https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;We&amp;#39;re expanding our tools to help you understand how content was created and edited across the web.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Strengthening Singapore’s AI Future: A New National Partnership</title>
+      <link>https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Google DeepMind and Singapore partner to apply frontier AI to address complex challenges across health, education, and sustainability and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Finding the molecular switches behind new infectious diseases</title>
+      <link>https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Clare Bryant uses Co-Scientist to identify genetic triggers in emerging infectious diseases.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Opening new paths in aging research</title>
+      <link>https://deepmind.google/blog/opening-new-paths-in-aging-research/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/opening-new-paths-in-aging-research/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Accelerating discovery of liver disease mechanisms</title>
+      <link>https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/accelerating-discovery-of-liver-disease-mechanisms/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Filippo Menolascina uses Co-Scientist to identify new liver disease treatments and explain why existing drugs only help certain patients.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Uniting biological toolkits for a new approach to ALS</title>
+      <link>https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/uniting-biological-toolkits-for-a-new-approach-to-als/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Co-Scientist unites Boston Children’s Hospital and MIT’s labs to explore new RNA-based treatments for ALS.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Uncovering repurposed medicines to fight liver fibrosis</title>
+      <link>https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/uncovering-repurposed-medicines-to-fight-liver-fibrosis/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Stanford geneticist uses Co-Scientist to help find new treatments for chronic liver disease and liver fibrosis.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] Cerebras&apos; $60B IPO: Slowly, then All at Once</title>
+      <link>https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Congrats Big Chip!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How WeatherNext helped the National Hurricane Center better predict Hurricane Melissa’s historic landfall in Jamaica</title>
+      <link>https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Learn how our WeatherNext AI model help forecasters give communities unprecedented time to prepare ahead of the historic Hurricane Melissa.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] OpenAI and Malta partner to bring ChatGPT Plus to all citizens</title>
+      <link>https://openai.com/index/malta-chatgpt-plus-partnership</link>
+      <guid isPermaLink="false">https://openai.com/index/malta-chatgpt-plus-partnership</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Musk v. Altman week 3: Elon Musk and Sam Altman traded blows over each other’s credibility. Now the jury will pick a side.</title>
+      <link>https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Update: On Monday May 18, the jury sided with OpenAI, delivering an advisory verdict finding that Musk’s claims are barred by the statute of limitations. US District Judge Yvonne Gonzalez Rogers accepted the verdict. In the final week of the Musk v. Altman trial, lawyers traded blows over Elon Musk’&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Gemini 3.5: frontier intelligence with action</title>
+      <link>https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Gemini 3.5 is built to help you execute complex, agentic workflows.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How Chinese short dramas became AI content machines</title>
+      <link>https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/</link>
+      <guid isPermaLink="false">https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;MIT Tech Review AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;In a dimly lit bedroom, a frightened young woman is thrown onto a bed by a tall, muscular man. He grabs her hand, and flame-like vines crawl across her body, fusing with her flesh. She levitates, then drops. A dragon-shaped tattoo appears across her chest. “Two months,” the man says. “Give me an hei&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] not much happened today</title>
+      <link>https://news.smol.ai/issues/26-05-15-not-much/</link>
+      <guid isPermaLink="false">https://news.smol.ai/issues/26-05-15-not-much/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Smol AI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;**Cerebras** made headlines with its **IPO**, marking a significant milestone for the company known for its contrarian hardware approach. The **Cerebras CFO Bob Komin** emphasized the company&amp;#39;s capability to serve **trillion-parameter models**, including internal **OpenAI 5.4 and 5.5** models, pushi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] Everything is Conductor</title>
+      <link>https://www.latent.space/p/ainews-everything-is-conductor</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-everything-is-conductor</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;an ultra quiet day lets us highlight a smaller trend.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How data science teams use Codex</title>
+      <link>https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex</link>
+      <guid isPermaLink="false">https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Databricks brings GPT-5.5 to enterprise agent workflows</title>
+      <link>https://openai.com/index/databricks</link>
+      <guid isPermaLink="false">https://openai.com/index/databricks</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] A new personal finance experience in ChatGPT</title>
+      <link>https://openai.com/index/personal-finance-chatgpt</link>
+      <guid isPermaLink="false">https://openai.com/index/personal-finance-chatgpt</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How business operations teams use Codex</title>
+      <link>https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex</link>
+      <guid isPermaLink="false">https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How sales teams use Codex</title>
+      <link>https://openai.com/academy/codex-for-work/how-sales-teams-use-codex</link>
+      <guid isPermaLink="false">https://openai.com/academy/codex-for-work/how-sales-teams-use-codex</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;See how sales teams can use Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Grok Build 👨‍💻 , Codex customizations 🤖, xAI exodus 👋</title>
+      <link>https://tldr.tech/ai/2026-05-15</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-15</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee &amp; Chai Asawa, Abridge</title>
+      <link>https://www.latent.space/p/abridge</link>
+      <guid isPermaLink="false">https://www.latent.space/p/abridge</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;How Abridge is quietly turning the patient and clinician conversation into the operating system of healthcare&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Sea&apos;s View on the Future of Agentic Software Development with Codex</title>
+      <link>https://openai.com/index/sea-david-chen</link>
+      <guid isPermaLink="false">https://openai.com/index/sea-david-chen</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Sea Limited&amp;#39;s CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality</title>
+      <link>https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Work with Codex from anywhere</title>
+      <link>https://openai.com/index/work-with-codex-from-anywhere</link>
+      <guid isPermaLink="false">https://openai.com/index/work-with-codex-from-anywhere</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] not much happened today</title>
+      <link>https://news.smol.ai/issues/26-05-14-not-much/</link>
+      <guid isPermaLink="false">https://news.smol.ai/issues/26-05-14-not-much/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Smol AI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;**OpenAI** expanded **Codex** integration with the ChatGPT mobile app enabling remote task management and introduced Remote SSH, hooks, and programmatic tokens for enterprise automation. The IDE ecosystem is shifting to &amp;quot;agent-first&amp;quot; UX with **GitHub Copilot App** preview and **VS Code** launching a&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] Codex Rises, Claude Meters Programmatic Usage</title>
+      <link>https://www.latent.space/p/ainews-codex-rises-claude-meters</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-codex-rises-claude-meters</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;a quiet day lets us report on a long trend of the major coding agents&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Helping ChatGPT better recognize context in sensitive conversations</title>
+      <link>https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations</link>
+      <guid isPermaLink="false">https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Unlocking asynchronicity in continuous batching</title>
+      <link>https://huggingface.co/blog/continuous_async</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/continuous_async</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Claude small business 💼, Anthropic CFO interview 💰, AI adoption data 📊</title>
+      <link>https://tldr.tech/ai/2026-05-14</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-14</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Building a safe, effective sandbox to enable Codex on Windows</title>
+      <link>https://openai.com/index/building-codex-windows-sandbox</link>
+      <guid isPermaLink="false">https://openai.com/index/building-codex-windows-sandbox</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] not much happened today</title>
+      <link>https://news.smol.ai/issues/26-05-13-not-much/</link>
+      <guid isPermaLink="false">https://news.smol.ai/issues/26-05-13-not-much/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Smol AI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;**Cline, LangChain, Notion, and Cursor** advanced agent infrastructure and developer platforms with innovations like **Cline SDK**, **LangSmith Engine**, **SmithDB** (offering **12–15×** faster observability), and Notion&amp;#39;s External Agents API integrating third-party agents such as Claude and Codex. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] The End of Finetuning</title>
+      <link>https://www.latent.space/p/ainews-the-end-of-finetuning</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-the-end-of-finetuning</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;a quiet day lets us reflect on whither finetuning&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Our response to the TanStack npm supply chain attack</title>
+      <link>https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack</link>
+      <guid isPermaLink="false">https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening def&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Opus 4.7 Fast ⚡, Qwen Image 2.0 🖼️, serverless GPUs ✨</title>
+      <link>https://tldr.tech/ai/2026-05-13</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-13</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How finance teams use Codex</title>
+      <link>https://openai.com/academy/how-finance-teams-use-codex</link>
+      <guid isPermaLink="false">https://openai.com/academy/how-finance-teams-use-codex</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Co-Scientist: A multi-agent AI partner to accelerate research</title>
+      <link>https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/</link>
+      <guid isPermaLink="false">https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;DeepMind Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Introducing Co-Scientist, a collaborative AI partner built with Gemini to help researchers accelerate scientific breakthroughs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] not much happened today</title>
+      <link>https://news.smol.ai/issues/26-05-12-not-much/</link>
+      <guid isPermaLink="false">https://news.smol.ai/issues/26-05-12-not-much/</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Smol AI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;**Research-level reasoning benchmarks** are advancing with **439 new math problems** from **64 mathematicians** and expanded medical benchmarks in **Medmarks v1.0** covering **30 benchmarks** and **61 models**. **Google DeepMind&amp;#39;s AI Co-Mathematician** achieves **48% on FrontierMath Tier 4**, while &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] [AINews] Thinking Machines&apos; Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD</title>
+      <link>https://www.latent.space/p/ainews-thinking-machines-native-interaction</link>
+      <guid isPermaLink="false">https://www.latent.space/p/ainews-thinking-machines-native-interaction</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Latent Space&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;well done, Team Thinky.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] What Parameter Golf taught us about AI-assisted research</title>
+      <link>https://openai.com/index/what-parameter-golf-taught-us</link>
+      <guid isPermaLink="false">https://openai.com/index/what-parameter-golf-taught-us</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] AutoScout24 scales engineering with AI-powered workflows</title>
+      <link>https://openai.com/index/autoscout24</link>
+      <guid isPermaLink="false">https://openai.com/index/autoscout24</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How NVIDIA engineers and researchers build with Codex</title>
+      <link>https://openai.com/index/nvidia</link>
+      <guid isPermaLink="false">https://openai.com/index/nvidia</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Interaction Models 🤖, Gemini Omni surfaces 🎥, SpaceXAI 🚀</title>
+      <link>https://tldr.tech/ai/2026-05-12</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-05-12</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;TLDR AI&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] Building Blocks for Foundation Model Training and Inference on AWS</title>
+      <link>https://huggingface.co/blog/amazon/foundation-model-building-blocks</link>
+      <guid isPermaLink="false">https://huggingface.co/blog/amazon/foundation-model-building-blocks</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;Hugging Face Blog&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;暂无摘要。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[技术] How ChatGPT adoption broadened in early 2026</title>
+      <link>https://openai.com/signals/research/2026q1-update</link>
+      <guid isPermaLink="false">https://openai.com/signals/research/2026q1-update</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>技术</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;OpenAI News&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;技术&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;有助于跟踪 AI、技术产品和开发者生态的最新变化。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
