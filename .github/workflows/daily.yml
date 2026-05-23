@@ -181,7 +181,6 @@ jobs:
           RSS_ENABLED: ${{ vars.RSS_ENABLED }}
           RSS_CATEGORIES: ${{ vars.RSS_CATEGORIES }}
           RSS_ITEM_LIMIT: ${{ vars.RSS_ITEM_LIMIT }}
-          RSS_MAIN_COMMUNITY_LIMIT: ${{ vars.RSS_MAIN_COMMUNITY_LIMIT }}
           RSS_DAYS: ${{ vars.RSS_DAYS }}
           RSS_TECH_LIMIT: ${{ vars.RSS_TECH_LIMIT }}
           RSS_COMMUNITY_LIMIT: ${{ vars.RSS_COMMUNITY_LIMIT }}

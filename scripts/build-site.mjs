@@ -6,8 +6,8 @@
  * Writes into daily_reports/ (already the publish dir):
  *   - index.html      copy of the latest <date>/<date>.html
  *   - archive.html    table of every <date>/<date>.html, newest first
- *   - feed.xml        Main RSS feed for daily reading
- *   - feeds/*.xml     Layered RSS feeds for category-specific readers
+ *   - feed.xml        Main RSS feed: one selected digest item per day
+ *   - feeds/*.xml     All-feed daily digest plus optional category feeds
  *
  * Existing per-date subdirs are left untouched. Idempotent — safe to re-run.
  *
@@ -160,7 +160,6 @@ console.log(`[build-site] .nojekyll`);
 
 function buildRssFeeds({ dates, siteUrl, rssCategories, rssDays }) {
   const bundles = dates.slice(0, rssDays).map((date) => loadBundle(date, siteUrl)).filter(Boolean);
-  const communityPerDay = parsePositiveInt(process.env.RSS_MAIN_COMMUNITY_LIMIT, 5);
   const feedDefs = [
     {
       name: "main",
@@ -168,12 +167,9 @@ function buildRssFeeds({ dates, siteUrl, rssCategories, rssDays }) {
       title: envValue("RSS_TITLE") || "daily-brief",
       description:
         envValue("RSS_DESCRIPTION") ||
-        "Personal DailyBrief feed: selected briefs plus a few community discussions.",
+        "Personal DailyBrief feed: one selected digest item per day.",
       limit: parsePositiveInt(process.env.RSS_ITEM_LIMIT, FEED_LIMITS.main),
-      items: bundles.flatMap((bundle) => [
-        ...collectBriefItems(bundle.report, rssCategories).map((item) => ({ ...item, ...bundle.meta })),
-        ...collectRawItems(bundle, { feedName: "community" }).slice(0, communityPerDay),
-      ]),
+      items: bundles.map((bundle) => buildMainDigestItem(bundle, rssCategories)),
     },
     {
       name: "tech",
@@ -211,9 +207,9 @@ function buildRssFeeds({ dates, siteUrl, rssCategories, rssDays }) {
       name: "all",
       path: "feeds/all.xml",
       title: "daily-brief all",
-      description: "All recent DailyBrief items for feed readers such as Miniflux.",
+      description: "One full DailyBrief index item per day for feed readers such as Miniflux.",
       limit: parsePositiveInt(process.env.RSS_ALL_LIMIT, FEED_LIMITS.all),
-      items: bundles.flatMap((bundle) => collectRawItems(bundle, { feedName: "all" })),
+      items: bundles.map((bundle) => buildAllDigestItem(bundle)),
     },
   ];
 
@@ -280,6 +276,33 @@ function collectBriefItems(report, rssCategories) {
   });
 }
 
+function buildMainDigestItem(bundle, rssCategories) {
+  const briefs = collectBriefItems(bundle.report, rssCategories).map((item) => ({
+    ...item,
+    ...bundle.meta,
+  }));
+  return {
+    ...bundle.meta,
+    type: "digest",
+    digestKind: "main",
+    title: `DailyBrief 精选 - ${bundle.meta.date}`,
+    categories: ["DailyBrief", "精选", ...unique(briefs.map(categoryLabel))],
+    description: renderMainDigestCard(bundle.report, briefs, bundle.meta),
+  };
+}
+
+function buildAllDigestItem(bundle) {
+  const items = sortFeedItems(collectRawItems(bundle, { feedName: "all" }));
+  return {
+    ...bundle.meta,
+    type: "digest",
+    digestKind: "all",
+    title: `DailyBrief 全量 - ${bundle.meta.date}`,
+    categories: ["DailyBrief", "全量", ...unique(items.map(categoryLabel))],
+    description: renderAllDigestCard(items, bundle.meta),
+  };
+}
+
 function collectRawItems(bundle, { feedName }) {
   return bundle.articles
     .filter((item) => rawItemBelongsToFeed(item, feedName))
@@ -308,6 +331,8 @@ function normalizeArticle(item) {
 }
 
 function renderRssItem(item, feedName) {
+  if (item.type === "digest") return renderDigestRssItem(item, feedName);
+
   const link = item.url || item.reportUrl;
   const title = `[${categoryLabel(item)}] ${item.title}`;
   const guid = item.url
@@ -322,6 +347,76 @@ function renderRssItem(item, feedName) {
       <category>${xml(categoryLabel(item))}</category>
       <description>${xml(description)}</description>
     </item>`;
+}
+
+function renderDigestRssItem(item, feedName) {
+  const guid = `dailybrief:${feedName}:${item.date}`;
+  const categories = (item.categories ?? ["DailyBrief"]).map(
+    (category) => `      <category>${xml(category)}</category>`,
+  );
+  return `    <item>
+      <title>${xml(item.title)}</title>
+      <link>${xml(item.reportUrl)}</link>
+      <guid isPermaLink="false">${xml(guid)}</guid>
+      <pubDate>${xml(reportDateToRfc822(item.date))}</pubDate>
+${categories.join("\n")}
+      <description>${xml(item.description)}</description>
+    </item>`;
+}
+
+function renderMainDigestCard(report, briefs, meta) {
+  const sections = [
+    ["技术精选", briefs.filter((item) => item.category === "tech")],
+    ["财经精选", briefs.filter((item) => item.category === "finance")],
+    ["时政精选", briefs.filter((item) => item.category === "politics")],
+  ]
+    .filter(([, items]) => items.length > 0)
+    .map(([title, items]) => renderDigestSection(title, items));
+
+  const keywords = Array.isArray(report.keywords) && report.keywords.length > 0
+    ? `<p><strong>关键词：</strong>${report.keywords.map(html).join("、")}</p>`
+    : "";
+  const editorNote = report.editor_note
+    ? `<p><strong>编辑短评：</strong>${html(report.editor_note)}</p>`
+    : "";
+
+  return `<h1>${html(report.hero_headline || `DailyBrief 精选 - ${meta.date}`)}</h1>
+<p>${html(report.daily_overview || "今日精选摘要见下方条目。")}</p>
+${keywords}
+${sections.join("\n")}
+${editorNote}
+<p><a href="${html(meta.reportUrl)}">查看当日完整 DailyBrief</a></p>`;
+}
+
+function renderAllDigestCard(items, meta) {
+  const groups = [
+    ["技术", items.filter((item) => categoryLabel(item) === "技术")],
+    ["社区", items.filter((item) => categoryLabel(item) === "社区")],
+    ["市场", items.filter((item) => categoryLabel(item) === "市场")],
+    ["时政", items.filter((item) => categoryLabel(item) === "时政")],
+  ].filter(([, groupItems]) => groupItems.length > 0);
+
+  const total = items.length;
+  const sections = groups.map(([title, groupItems]) => renderDigestSection(`${title}（${groupItems.length}）`, groupItems));
+
+  return `<h1>DailyBrief 全量索引 - ${html(meta.date)}</h1>
+<p>今日共收录 ${total} 条候选内容。条目仅包含来源暴露的标题、链接和短摘要；正文请打开原文查看。</p>
+${sections.join("\n")}
+<p><a href="${html(meta.reportUrl)}">查看当日完整 DailyBrief</a></p>`;
+}
+
+function renderDigestSection(title, items) {
+  return `<h2>${html(title)}</h2>
+<ul>
+${items.map(renderDigestListItem).join("\n")}
+</ul>`;
+}
+
+function renderDigestListItem(item) {
+  const summary = item.summary || item.excerpt || item.meta || "暂无摘要。";
+  const source = item.source ? ` <span>(${html(item.source)})</span>` : "";
+  const importance = item.importance ? ` <span>重要性 ${html(item.importance)}/10</span>` : "";
+  return `  <li><a href="${html(item.url)}">${html(item.title)}</a>${source}${importance}<br><small>${html(summary)}</small></li>`;
 }
 
 function renderItemCard(item) {
@@ -379,6 +474,10 @@ function sortFeedItems(items) {
     if (a.type !== "brief" && b.type === "brief") return 1;
     return (b.publishedAt?.getTime?.() ?? 0) - (a.publishedAt?.getTime?.() ?? 0);
   });
+}
+
+function unique(values) {
+  return [...new Set(values.filter(Boolean))];
 }
 
 function canonicalUrl(value) {
