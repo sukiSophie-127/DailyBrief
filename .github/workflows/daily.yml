@@ -1,6 +1,7 @@
 name: Daily Brief
 
 # Generate a fresh daily report and publish to GitHub Pages.
+# Fork note: repository variables/secrets control provider selection.
 #
 # One-time setup for forkers (see README → "Run on GitHub Actions"):
 #   1. Settings → Actions → General → enable workflows (forked repos start disabled)
