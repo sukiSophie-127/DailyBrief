@@ -1,137 +1,130 @@
 {
-  "hero_headline": "特朗普今日将决定是否接受伊朗停火提议",
-  "daily_overview": "今日全球聚焦美伊局势，特朗普将面见谈判代表，决定是否接受伊朗停火方案；中国山西矿难致82死，习近平指示全力救援。技术领域，AI进展不断：OpenAI获Gartner企业编码代理领导者认证，NVIDIA推出扩散语言模型提速文本生成，DeepSeek API完成扩容，Google I/O彰显AI驱动科学新方向。财经方面，SpaceX、OpenAI、Anthropic筹备IPO考验AI泡沫承受力，美国石油商借伊朗冲突增产套利，Delivery Hero收到Uber百亿欧元收购要约，英国4月借贷创疫情以来新高，香奈儿十年分红达210亿美元。",
+  "hero_headline": "美伊停火谈判进入关键阶段 特朗普今日定夺",
+  "daily_overview": "中东紧张局势持续发酵，特朗普将于今日会晤顾问审议伊朗停火提议，市场等待方向。中国山西煤矿瓦斯爆炸已致82人遇难，当局全力救援。科技界，OpenAI被Gartner列为企业AI编码Agent领导者，NVIDIA推出扩散语言模型Nemotron，DeepMind利用AI发现逆转细胞衰老因素。财经方面，Uber拟以100亿欧元收购Delivery Hero，SpaceX与OpenAI等IPO挑战AI泡沫承受力，美国页岩油增产以攫取战争溢价。西班牙逾万人游行要求首相桑切斯下台，腐败指控持续发酵。",
   "tech_briefs": [
     {
-      "title": "OpenAI获Gartner企业编码代理领导者认证",
+      "title": "OpenAI被Gartner评为企业AI编码Agent领导者",
       "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
       "source": "OpenAI News",
-      "summary": "2026年Gartner魔力象限中，OpenAI因Codex的创新性和企业部署能力被评为企业AI编码代理领导者。",
+      "summary": "Gartner发布2026年企业AI编码Agent魔力象限，OpenAI因Codex创新及企业级部署能力被评为领导者。",
       "importance": 9
     },
     {
-      "title": "NVIDIA推扩散语言模型，实现近光速文本生成",
+      "title": "NVIDIA推出Nemotron扩散语言模型，实现近光速文本生成",
       "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
       "source": "Hugging Face Blog",
-      "summary": "NVIDIA发布Nemotron-Labs扩散语言模型，在文本生成速度上取得突破，大幅提升推理效率。",
+      "summary": "NVIDIA发布Nemotron-Labs扩散语言模型，采用扩散技术大幅提升生成速度，文本生成接近光速级别，标志着非自回归模型新突破。",
       "importance": 8
     },
     {
-      "title": "Google I/O揭示AI驱动科学新路径",
-      "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/",
-      "source": "MIT Tech Review AI",
-      "summary": "在Google I/O主题演讲中，DeepMind CEO Hassabis宣称人类正站在奇点山麓，AI将加速科学发现。",
-      "importance": 8
+      "title": "DeepMind利用AI发现逆转细胞衰老新因子",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "source": "DeepMind Blog",
+      "summary": "生物学家借助Google DeepMind的AI系统「共同科学家」，筛选出多个能成功使人类细胞恢复活力的新基因因子，为抗衰老药物开发提供新路径。",
+      "importance": 9
     },
     {
-      "title": "DeepSeek API完成提速扩容，支持500并发",
-      "url": "https://linux.do/t/topic/2232185",
-      "source": "LinuxDo",
-      "summary": "DeepSeek宣布API输出速度提升、服务更稳定，默认支持500并发，企业用户可在线申请更大并发。",
-      "importance": 7
-    },
-    {
-      "title": "Understand-Anything：代码转交互式知识图谱",
+      "title": "Understand-Anything将代码转化为交互式知识图谱",
       "url": "https://github.com/Lum1104/Understand-Anything",
       "source": "GitHub Trending",
-      "summary": "开源项目可将任意代码库转化为交互式知识图谱，支持搜索、提问，兼容Claude Code、Codex、Cursor等编码代理，大幅提升代码理解效率。",
+      "summary": "开源项目能将任意代码转换为可搜索、探索、提问的交互式知识图谱，支持Claude Code等主流AI编码工具，大幅减少Token消耗与工具调用次数。",
       "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "SpaceX、OpenAI与Anthropic IPO挑战AI泡沫承受力",
-      "url": "https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12",
+      "title": "Uber拟以百亿欧元收购Delivery Hero",
+      "url": "https://www.ft.com/content/6d5df0df-74b3-4be9-a1ec-27322e1c3184",
       "source": "Financial Times",
-      "summary": "三家AI巨头筹备IPO，埃隆·马斯克、山姆·奥特曼和达里奥·阿莫迪竞相争夺华尔街最深资本池。",
+      "summary": "德国外卖巨头Delivery Hero确认收到Uber约100亿欧元收购要约，DoorDash亦表现出兴趣，交易或重塑全球外卖市场格局。",
       "importance": 9
     },
     {
-      "title": "美国石油商从伊朗冲突中增产套利",
+      "title": "SpaceX、OpenAI与Anthropic IPO将测试AI估值极限",
+      "url": "https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12",
+      "source": "Financial Times",
+      "summary": "三家明星公司相继筹备IPO，马斯克、奥特曼和阿莫迪争相吸引华尔街资本，市场关注AI行业估值能否持续。",
+      "importance": 9
+    },
+    {
+      "title": "美国页岩油商借伊朗冲突提高产量",
       "url": "https://www.ft.com/content/d0fc0074-86f1-46ec-bf80-9bbb6abb2c24",
       "source": "Financial Times",
-      "summary": "钻井扩张紧随全球供应紧张导致油价上涨40%，但这也影响总统支持率。",
+      "summary": "伊朗战争导致全球油价飙升约40%，美国石油生产商趁机扩大钻井增产，以抓住高价窗口但可能损害总统支持率。",
       "importance": 8
     },
     {
-      "title": "Uber提出100亿欧元收购Delivery Hero",
-      "url": "https://www.ft.com/content/6d5df0df-74b3-4be9-a1ec-27322e1c3184",
-      "source": "Financial Times",
-      "summary": "德国食品配送集团Delivery Hero收到Uber和DoorDash的收购意向，估值约100亿欧元。",
-      "importance": 8
-    },
-    {
-      "title": "英国4月借贷创疫情以来新高",
-      "url": "https://www.bbc.com/news/articles/ce9py7nx8j4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "summary": "英国4月公共借贷高于预期，零售销售因燃油价格飙升而下滑。",
-      "importance": 7
-    },
-    {
-      "title": "香奈儿巨额分红令所有者十年入账210亿美元",
+      "title": "Chanel家族十年获股息超210亿美元",
       "url": "https://www.bloomberg.com/news/videos/2026-05-23/chanel-s-mega-dividend-brings-owners-windfall-to-21b-video",
       "source": "Bloomberg Markets",
-      "summary": "Chanel在奢侈品行业低迷期逆势繁荣，其所有者家族过去十年通过分红至少获得210亿美元。",
+      "summary": "彭博数据显示，Chanel背后的韦特海默家族过去十年累计获得至少210亿美元分红，奢侈品市场低迷中品牌仍持续盈利。",
       "importance": 7
+    },
+    {
+      "title": "英国4月政府借款创疫情以来新高",
+      "url": "https://www.bbc.com/news/articles/ce9py7nx8j4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "英国4月公共部门借款大幅超出预期，零售销售因燃油价格飙升下滑，财政压力引发市场对经济复苏强度的担忧。",
+      "importance": 8
     }
   ],
   "politics_briefs": [
     {
-      "title": "特朗普今日决定伊朗停火提议，霍尔木兹博弈加剧",
+      "title": "美伊停火谈判进入关键阶段 双方释放积极信号",
       "url": "https://www.theguardian.com/world/2026/may/23/iran-hosts-pakistani-delegation-diplomacy-to-avert-new-us-strikes",
       "source": "The Guardian",
-      "summary": "特朗普称将与美方谈判代表会面，审查伊朗最新停火提议，可能性为五五开；同时分析认为霍尔木兹封锁考验双方经济耐力。（多家报道）",
-      "importance": 9
+      "summary": "特朗普今日将会晤顾问审议伊朗停火提议，美伊官员均称取得进展，但军事选项仍未排除。（多家报道）",
+      "importance": 10
     },
     {
-      "title": "中国山西矿难致82死，习近平指示全力救援",
+      "title": "中国山西煤矿瓦斯爆炸致至少82人死亡",
       "url": "https://www.theguardian.com/world/2026/may/23/china-mine-explosion-shanxi-deaths-xi-jinping",
       "source": "The Guardian",
-      "summary": "山西省一煤矿发生瓦斯爆炸，造成至少82人死亡，习近平要求当局全力以赴救援。",
-      "importance": 9
+      "summary": "山西一煤矿发生特大瓦斯爆炸，已确认82人遇难，习近平指示全力救援并严查责任，安全生产问题引发关注。",
+      "importance": 10
     },
     {
-      "title": "特朗普宣布向波兰增兵五千，北约联盟困惑",
-      "url": "https://www.npr.org/2026/05/23/nx-s1-5831245/nato-allies-confused-by-trumps-unexpected-move-to-deploy-5-000-u-s-troops-to-poland",
-      "source": "NPR World",
-      "summary": "特朗普在缩减驻欧美军同时，意外宣布向波兰增兵5000，令北约盟国感到困惑。（多家报道）",
+      "title": "西班牙数万人抗议要求首相因腐败辞职",
+      "url": "https://www.aljazeera.com/news/2026/5/23/thousands-march-in-madrid-demanding-spanish-pm-quit-over-graft-allegations?traffic_source=rss",
+      "source": "Al Jazeera",
+      "summary": "马德里爆发大规模示威，抗议者指控首相桑切斯及其家人涉腐，桑切斯称指控为政治操弄。",
       "importance": 8
     }
   ],
-  "editor_note": "从地缘博弈到AI创新，从矿难悲剧到资本盛宴，今日新闻折射世界的复杂与无常。保持警惕，冷静观察。",
+  "editor_note": "今日新闻交织着战与和、生与死：伊朗停火希望与页岩油增产并行，中国矿难敲响安全警钟，AI领域追逐更快更强——时代的矛盾持续演化。",
   "keywords": [
     "伊朗停火",
-    "特朗普",
-    "中国矿难",
-    "AI IPO",
     "OpenAI",
-    "DeepSeek",
-    "知识图谱",
-    "波兰增兵"
+    "中国矿难",
+    "Delivery Hero",
+    "AI编码Agent",
+    "扩散模型",
+    "页岩油",
+    "西班牙抗议"
   ],
   "trading": {
-    "market_overview": "从四大类资产技术面看，美股主要指数（SPY/QQQ）仍维持多头排列，但MACD已出现死叉信号，QQQ的RSI达71.4进入超买区，短期回调风险积聚；AAPL虽创出RSI 78.4的超买水平但MACD金叉仍支撑趋势。VIX恐慌指数回落至16.7低于各均线，市场恐慌情绪较低。加密货币方面，恐慌贪婪指数仅28（恐慌），总市值单日下跌1.71%至2.60T，BTC、ETH、SOL均处于空头排列且RSI均在40-43区间，ETH的RSI更低至31.3，技术面偏弱。中概股整体亦为空头主导，BABA、PDD、腾讯控股均跌破关键均线，RSI在35-44之间，仅京东（JD）技术上相对中性。商品外汇中，黄金期货（GC=F）与WTI原油（CL=F）虽仍处于200日移动平均线之上，但短期均线已拐头向下，MACD死叉，RSI回落至40-47区间；美元指数（DX-Y.NYB）与10年期美债收益率（^TNX）却呈现稳健的多头排列，MACD金叉，美元/人民币则因人民币升值跌至空头排列。整体而言，分化显著：美股与商品短期有整理压力，加密货币和中概股处于弱势，而美元利率资产技术面偏强。",
+    "market_overview": "美股主要指数处于高位但出现死叉隐患：SPY（745.64）和QQQ（717.54）虽多头排列，但MACD均已死叉，QQQ的RSI达71.4超买区。个别科技股分化，AAPL（RSI 78.4）强势超买，META（RSI 45.3）空头排列。加密货币在恐慌指数28环境下整体走弱，总市值2.61T、BTC主导率58%，ETH、SOL均位于所有均线下方，RSI 32-44。中概股亦偏空，BABA/PDD/0700.HK均处于空头趋势。商品方面，黄金4623跌至均线下方，MACD死叉；原油96.6围绕均线波动，MACD亦死叉。外汇方面，美元/人民币（6.79）MACD金叉但空头排列尚无方向。美债收益率（4.56）与美元指数（99.32）则保持多头排列，DXY现MACD金叉。整体市场多空分化加剧。",
     "watchlist": [
       {
-        "symbol": "^TNX",
-        "display_name": "10Y 美债收益率 (%)",
+        "symbol": "SPY",
+        "display_name": "标普500ETF (SPY)",
         "stance": "偏上行",
-        "rationale": "当前价格4.56高于SMA20(4.46)、SMA50(4.37)、SMA200(4.2)，形成多头排列；RSI14为60.1处于偏强区间，MACD(0.073)大于MACD信号(0.0617)呈金叉状态，且价格接近52周低点（说明仍有上行空间）。综合显示上行技术趋势占优。"
+        "rationale": "当前价格745.64，高于SMA20（731.58）、SMA50（696.68）和SMA200（678.85），呈多头排列；距52周高点仅0.52%，RSI 68.8处于强势但未超买，虽MACD出现死叉，但长期趋势指标仍偏多，整体技术结构偏向上行。"
       },
       {
         "symbol": "ETH-USD",
-        "display_name": "Ethereum",
+        "display_name": "以太坊 (ETH-USD)",
         "stance": "偏下行",
-        "rationale": "当前价格2062.6跌破所有主要均线（SMA20 2232.98、SMA50 2262.3、SMA200 2553.18），空头排列明确；RSI14为31.3接近超卖，MACD(-55.11)持续位于信号线(-32.75)下方且负值扩大，叠加加密市场恐慌情绪（恐慌指数28），技术面承压偏下行。"
+        "rationale": "当前价格2072.68，已跌破所有主要均线（SMA20 2233.48、SMA50 2262.5、SMA200 2553.23），空头排列明确；RSI 32.7接近超卖区域，MACD（-54.3）持续位于信号线（-32.6）下方，空头动能巩固，下行趋势明确。"
       },
       {
-        "symbol": "NVDA",
-        "display_name": "Nvidia",
+        "symbol": "MSFT",
+        "display_name": "微软 (MSFT)",
         "stance": "中性",
-        "rationale": "当前价215.33仍在SMA20(214.75)、SMA50(196.81)、SMA200(187.03)之上，多头结构未破坏，但MACD(6.91)已下破信号线(7.78)形成死叉，RSI14为53.7处于中性区域，近1日跌幅-1.9%显示短期动能减弱，多空力量均衡，技术setup暂无明显方向。"
+        "rationale": "当前股价418.57，略高于SMA20（416.61）和SMA50（400.44），但低于SMA200（460.40）；MACD（3.77）略低于信号线（4.14），RSI 54.4处于中性区域，方向信号不明确，技术状态中性。"
       }
     ],
-    "risk_caveat": "本报告所引用技术指标均基于历史数据计算，过去走势不代表未来表现，不构成任何投资建议。报告内容仅供技术指标解读参考，投资者应独立判断，审慎决策。",
+    "risk_caveat": "过去走势不代表未来表现，本解读仅供技术指标解读参考，投资者应结合其他因素独立决策。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -391,18 +384,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 75416.68,
-        "pct1Day": -0.0947991176192163,
-        "pct5Day": -1.997931804785609,
-        "pct52WeekHigh": -40.23943472352629,
-        "pct52WeekLow": 25.539210233051268,
-        "sma20": 79097.505859375,
-        "sma50": 76552.56640625,
-        "sma200": 80654.05509765625,
-        "rsi14": 40.13798232814825,
-        "macd": -242.71748963468417,
-        "macdSignal": 453.0696541437169,
-        "macdHistogram": -695.7871437784011,
+        "currentPrice": 75634.58,
+        "pct1Day": 0.19385510678142884,
+        "pct5Day": -1.7147762659878514,
+        "pct52WeekHigh": -40.066769642356654,
+        "pct52WeekLow": 25.901928320214253,
+        "sma20": 79108.40078125,
+        "sma50": 76556.924375,
+        "sma200": 80655.14458984375,
+        "rsi14": 41.06182075888724,
+        "macd": -225.33527809621592,
+        "macdSignal": 456.54609645141056,
+        "macdHistogram": -681.8813745476265,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -418,18 +411,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2062.6,
-        "pct1Day": -0.0986596155758643,
-        "pct5Day": -3.0968106311225427,
-        "pct52WeekHigh": -58.36271353341006,
-        "pct52WeekLow": 17.955334124810996,
-        "sma20": 2232.9792724609374,
-        "sma50": 2262.3012060546876,
-        "sma200": 2553.1792907714844,
-        "rsi14": 31.33121907463901,
-        "macd": -55.11137137456353,
-        "macdSignal": -32.75020083980459,
-        "macdHistogram": -22.36117053475894,
+        "currentPrice": 2072.68,
+        "pct1Day": 0.38956180936110263,
+        "pct5Day": -2.6232412774726455,
+        "pct52WeekHigh": -58.15923062466225,
+        "pct52WeekLow": 18.53178606313063,
+        "sma20": 2233.483264160156,
+        "sma50": 2262.502802734375,
+        "sma200": 2553.2296899414064,
+        "rsi14": 32.74754305742695,
+        "macd": -54.30728205387277,
+        "macdSignal": -32.58938297566644,
+        "macdHistogram": -21.71789907820633,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -445,18 +438,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 84.17,
-        "pct1Day": -0.16260881266651497,
-        "pct5Day": -1.3211475634915255,
-        "pct52WeekHigh": -66.75880366446967,
-        "pct52WeekLow": 22.532784835224913,
-        "sma20": 88.822017288208,
-        "sma50": 86.31354171752929,
-        "sma200": 107.49732692718506,
-        "rsi14": 42.65029979385279,
-        "macd": -0.5453930900571606,
-        "macdSignal": 0.2832457177468617,
-        "macdHistogram": -0.8286388078040223,
+        "currentPrice": 84.71,
+        "pct1Day": 0.47790670641580996,
+        "pct5Day": -0.6880647511389796,
+        "pct52WeekHigh": -66.54554186072504,
+        "pct52WeekLow": 23.318904638135933,
+        "sma20": 88.84901733398438,
+        "sma50": 86.32434173583984,
+        "sma200": 107.50002693176269,
+        "rsi14": 43.92248919184359,
+        "macd": -0.5023160939467317,
+        "macdSignal": 0.29186111696894745,
+        "macdHistogram": -0.7941772109156792,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -777,13 +770,13 @@
       "timestamp": "2026-05-23T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2601984611120.626,
-      "total24hVolumeUsd": 110990560980.6144,
-      "marketCapChangePct24h": -1.7051851920638583,
-      "btcDominance": 58.003720746533084,
-      "ethDominance": 9.555272401078728,
+      "totalMarketCapUsd": 2606146675639.395,
+      "total24hVolumeUsd": 83008864969.59732,
+      "marketCapChangePct24h": -1.0735445207634446,
+      "btcDominance": 58.00861005728625,
+      "ethDominance": 9.559025004567648,
       "activeCryptocurrencies": 17398
     },
-    "generated_at": "2026-05-23T17:57:40.982Z"
+    "generated_at": "2026-05-23T18:15:22.922Z"
   }
 }

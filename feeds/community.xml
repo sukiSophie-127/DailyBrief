@@ -5,7 +5,7 @@
     <link>https://sukisophie-127.github.io/DailyBrief/</link>
     <description>Developer community discussions from sources such as V2EX, LinuxDo, and HN.</description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 23 May 2026 17:59:18 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 18:16:48 GMT</lastBuildDate>
     <atom:link href="https://sukisophie-127.github.io/DailyBrief/feeds/community.xml" rel="self" type="application/rss+xml" />
     <docs>https://www.rssboard.org/rss-specification</docs>
     <generator>daily-brief</generator>
@@ -18,7 +18,7 @@
       <category>社区</category>
       <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;9 回复 · 程序员 节点&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;10 回复 · 程序员 节点&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
@@ -63,6 +63,19 @@
 &lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>[社区] 5 年 Java 经验后端想转 AI agent 开发</title>
+      <link>https://www.v2ex.com/t/1214970</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214970</guid>
+      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · 程序员 节点&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>[社区] DeepSeek API已完成提速和扩容</title>
       <link>https://linux.do/t/topic/2232185</link>
       <guid isPermaLink="false">https://linux.do/t/topic/2232185</guid>
@@ -96,7 +109,7 @@
       <category>社区</category>
       <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;收集了挺多资源类型的网站，剧集呀，电影呀，游戏呀，windows安装包呀，反正杂七杂八的特别多，我也没啥特别厉害的能力，就囤囤鼠这块有点特长了，只能发挥我的特长，给佬友们回馈点我力所能及的东西了。 希望佬友们也别嫌弃了，我思考了一下午，入站这么久，嫖了大佬挺多资源的，一直当吸血虫默默的挺不好来着，就想着能看看自己能哪里能帮到佬友们。 120 个帖子 - 59 位参与者 阅读完整话题&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;收集了挺多资源类型的网站，剧集呀，电影呀，游戏呀，windows安装包呀，反正杂七杂八的特别多，我也没啥特别厉害的能力，就囤囤鼠这块有点特长了，只能发挥我的特长，给佬友们回馈点我力所能及的东西了。 希望佬友们也别嫌弃了，我思考了一下午，入站这么久，嫖了大佬挺多资源的，一直当吸血虫默默的挺不好来着，就想着能看看自己能哪里能帮到佬友们。 121 个帖子 - 60 位参与者 阅读完整话题&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
@@ -453,19 +466,6 @@
 &lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[社区] grok 订阅跨设备同步遇到问题！</title>
-      <link>https://www.v2ex.com/t/1214476</link>
-      <guid isPermaLink="false">https://www.v2ex.com/t/1214476</guid>
-      <pubDate>Sun, 24 May 2026 12:00:00 GMT</pubDate>
-      <category>社区</category>
-      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · Apple 节点&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-24/2026-05-24.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>[社区] Ipnoe 截屏好像不会存到相册了。 版本是 IOS26.5</title>
       <link>https://www.v2ex.com/t/1214441</link>
       <guid isPermaLink="false">https://www.v2ex.com/t/1214441</guid>
@@ -721,6 +721,19 @@
       <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;LinuxDo&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;22 个帖子 - 20 位参与者 阅读完整话题&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[社区] grok 订阅跨设备同步遇到问题！</title>
+      <link>https://www.v2ex.com/t/1214476</link>
+      <guid isPermaLink="false">https://www.v2ex.com/t/1214476</guid>
+      <pubDate>Sat, 23 May 2026 12:00:00 GMT</pubDate>
+      <category>社区</category>
+      <description>&lt;p&gt;&lt;strong&gt;来源：&lt;/strong&gt;V2EX&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;分类：&lt;/strong&gt;社区&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;摘要：&lt;/strong&gt;4 回复 · Apple 节点&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;为什么值得看：&lt;/strong&gt;来自开发者社区热帖，适合观察真实讨论、踩坑反馈和工具趋势。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://sukisophie-127.github.io/DailyBrief/2026-05-23/2026-05-23.html&quot;&gt;查看当日 DailyBrief&lt;/a&gt;&lt;/p&gt;</description>
