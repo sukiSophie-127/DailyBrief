@@ -63,7 +63,10 @@ if (dates.length === 0) {
 // --- index.html = latest report ---
 const latest = dates[0];
 const latestPath = path.join(ROOT, latest, `${latest}.html`);
-fs.copyFileSync(latestPath, path.join(ROOT, "index.html"));
+const latestHtml = fs
+  .readFileSync(latestPath, "utf8")
+  .replace(/href="\.\.\/archive\.html"/g, 'href="./archive.html"');
+fs.writeFileSync(path.join(ROOT, "index.html"), latestHtml, "utf8");
 console.log(`[build-site] index.html  ← ${latest}/${latest}.html`);
 
 // --- archive.html = list of all reports ---

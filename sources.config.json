@@ -126,6 +126,21 @@
     ]
   },
   {
+    "id": "huggingface-papers",
+    "name": "HuggingFace Trending Papers",
+    "type": "api",
+    "url": "https://huggingface.co/api/daily_papers",
+    "category": "tech",
+    "subcategory": "trending-papers",
+    "enabled": true,
+    "locales": [
+      "zh",
+      "en"
+    ],
+    "keywords": ["LLM", "agent", "RAG", "reasoning", "coding"],
+    "notes": "Daily trending papers from HuggingFace. Set keywords to filter; empty array or omit for all papers."
+  },
+  {
     "id": "tldr-ai",
     "name": "TLDR AI",
     "type": "rss",

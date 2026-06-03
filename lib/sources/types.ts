@@ -40,6 +40,12 @@ export interface SourceDef {
    * any context useful for fork users. Ignored at runtime.
    */
   notes?: string;
+  /**
+   * Optional keyword filter list. When present, only items whose title or
+   * body matches at least one keyword (case-insensitive) are kept.
+   * Omit or leave empty to return all items unfiltered.
+   */
+  keywords?: string[];
 }
 
 export interface RawArticle {

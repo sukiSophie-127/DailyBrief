@@ -45,13 +45,19 @@ export const PRESETS: Record<OpenAICompatConfig["backend"], OpenAICompatConfig> 
 const clientCache = new Map<string, OpenAI>();
 
 function getClient(cfg: OpenAICompatConfig): { client: OpenAI; model: string } {
-  const apiKey = process.env[cfg.apiKeyEnv];
+  // Provider-specific env wins; LLM_API_KEY / LLM_BASE_URL are generic
+  // aliases so users pointing at a non-preset OpenAI-compatible service
+  // (Moonshot, SiliconFlow, OpenRouter, self-hosted vLLM, ...) don't have
+  // to misuse the OPENAI_* variable names just to reach a custom endpoint.
+  const apiKey = process.env[cfg.apiKeyEnv] || process.env.LLM_API_KEY;
   if (!apiKey) {
     throw new Error(
-      `${cfg.apiKeyEnv} is required for LLM_BACKEND=${cfg.backend}. Set it in .env.local.`,
+      `${cfg.apiKeyEnv} (or generic LLM_API_KEY) is required for LLM_BACKEND=${cfg.backend}. Set it in .env.local.`,
     );
   }
-  const baseURL = process.env[cfg.baseUrlEnv]?.trim() || cfg.defaultBaseUrl;
+  const baseURL = process.env[cfg.baseUrlEnv]?.trim()
+    || process.env.LLM_BASE_URL?.trim()
+    || cfg.defaultBaseUrl;
   const model = process.env.LLM_MODEL?.trim() || cfg.defaultModel;
 
   const cacheKey = `${baseURL}::${apiKey.slice(-6)}`;
@@ -84,6 +90,13 @@ export async function runOpenAICompat(
           { role: "system", content: opts.systemPrompt },
           { role: "user", content: opts.userPrompt },
         ],
+        // Explicit max_tokens — most providers default low (DeepSeek 4096,
+        // some MiniMax variants 2048). A 16-item batch enrichment routinely
+        // exceeds 4K output tokens once you count Chinese chars + JSON
+        // structure, and silent truncation made it through with just 1/16
+        // entries parseable. 8192 covers all observed daily batches with
+        // generous headroom. Match the explicit value Anthropic SDK uses.
+        max_tokens: 8192,
         // Don't force JSON mode — not all OpenAI-compat providers support
         // response_format=json_object, and our prompts + jsonrepair already
         // handle the slop.

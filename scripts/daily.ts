@@ -9,10 +9,11 @@ import {
   generateDailyReport,
   type ArticleInput,
 } from "../lib/ai/pipeline";
-import { getModelTag } from "../lib/ai/llm";
+import { getModelTag, validateBackendCredentials } from "../lib/ai/llm";
 import {
   enrichFinanceNewsSummaries,
   enrichGithubTrendingSummaries,
+  enrichTrendingPapersSummaries,
   enrichXViralSummaries,
 } from "../lib/ai/enrich";
 import {
@@ -118,6 +119,32 @@ async function enrichXViral(articles: ArticleInput[]): Promise<void> {
 }
 
 /**
+ * Trending papers enrichment — preserves the fetcher's upvote-desc order
+ * (huggingface-papers is in PRESERVE_FETCH_ORDER_SOURCES) and caps to the
+ * displayed limit (matches SOURCE_DISPLAY_LIMITS["tech:trending-papers"]).
+ */
+async function enrichTrendingPapers(articles: ArticleInput[]): Promise<void> {
+  const papers = articles
+    .filter((a) => a.sourceId === "huggingface-papers")
+    .slice(0, 20);
+  if (papers.length === 0) return;
+  console.log(
+    `[daily] enriching ${papers.length} trending papers with ${REPORT_LOCALE} summaries…`,
+  );
+  const t0 = Date.now();
+  const summaries = await enrichTrendingPapersSummaries(
+    papers.map((a) => ({ url: a.url, title: a.title, excerpt: a.excerpt })),
+  );
+  for (const a of papers) {
+    const s = summaries.get(a.url);
+    if (s) a.summary = s;
+  }
+  console.log(
+    `[daily] enrichment done in ${((Date.now() - t0) / 1000).toFixed(1)}s, matched ${summaries.size}/${papers.length}`,
+  );
+}
+
+/**
  * Shared implementation for "merged subgroup" enrichment: collect all
  * enabled articles in (category, subcategory), sort by date desc, take
  * the display cap (from MERGED_SUBGROUP_LIMITS), and ask the LLM to
@@ -212,6 +239,10 @@ async function runTrading(): Promise<TradingSection | null> {
 }
 
 async function main() {
+  // Fail fast on misconfigured backend before we spend 30s fetching
+  // 500+ articles only to discover the LLM has no credentials.
+  validateBackendCredentials();
+
   const date = todayKey();
   console.log(`[daily] ${date} — fetching sources…\n`);
   const articles = await fetchAll();
@@ -220,8 +251,9 @@ async function main() {
     throw new Error("no articles fetched — aborting");
   }
 
-  // Enrich GH Trending, finance news, and politics with Chinese summaries.
+  // Enrich GH Trending, papers, finance news, and politics with summaries.
   await enrichGhTrending(articles);
+  await enrichTrendingPapers(articles);
   await enrichFinanceNews(articles);
   await enrichPolitics(articles);
   await enrichAiNews(articles);

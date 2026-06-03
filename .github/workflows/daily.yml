@@ -29,8 +29,16 @@ name: Daily Brief
 
 on:
   schedule:
-    # Hourly trigger. The gate job decides which one actually does work.
-    - cron: '0 * * * *'
+    # Two hourly triggers (at :07 and :37) — GitHub Actions silently drops
+    # a non-trivial fraction of scheduled runs, sometimes whole stretches
+    # of 2-3 hours back-to-back. A single off-peak cron was not enough; we
+    # saw the BJ 08-10 stretch get fully swallowed multiple times. Two
+    # triggers per hour gives ~95% per-window coverage, and the gate's
+    # catchup branch handles the residual misses by allowing a build any
+    # time after `earliest REPORT_HOUR - 1` if today's report is still
+    # absent from gh-pages.
+    - cron: '7 * * * *'
+    - cron: '37 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -54,6 +62,7 @@ jobs:
           REPORT_HOUR: ${{ vars.REPORT_HOUR }}
           REPORT_DAYS: ${{ vars.REPORT_DAYS }}
           EVENT_NAME: ${{ github.event_name }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
 
@@ -110,11 +119,56 @@ jobs:
             done
           fi
 
+          # Catchup branch — covers GitHub Actions silently dropping scheduled
+          # triggers (which happens to ~30% of cron runs, especially at the
+          # exact target hour). Fires when:
+          #   1. day matches AND
+          #   2. exact hour didn't match AND
+          #   3. we're past today's earliest REPORT_HOUR AND
+          #   4. today's report doesn't yet exist on gh-pages
+          # Once today's report is published, this branch self-suppresses on
+          # subsequent gate runs — no double-builds per day.
+          catchup_match=false
+          if [ "$day_match" = "true" ] && [ "$hour_match" = "false" ]; then
+            earliest_hour=99
+            for h in "${HLIST[@]}"; do
+              h_trim="${h// /}"
+              if [ "$h_trim" -lt "$earliest_hour" ]; then
+                earliest_hour=$h_trim
+              fi
+            done
+            # Tolerate 1h early: if BJ 07:XX is the only trigger before BJ
+            # 08:00 gets swallowed, we'd rather fire slightly early than
+            # not at all. earliest_hour=0 edge case: don't go negative.
+            catchup_threshold=$earliest_hour
+            if [ "$earliest_hour" -gt 0 ]; then
+              catchup_threshold=$((earliest_hour - 1))
+            fi
+            if [ "$NOW_HOUR" -ge "$catchup_threshold" ]; then
+              TODAY=$(TZ="$TZ_VAL" date +%Y-%m-%d)
+              CHECK_URL="https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/${TODAY}/${TODAY}.html?ref=gh-pages"
+              HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" \
+                -H "Authorization: Bearer ${GH_TOKEN}" \
+                -H "Accept: application/vnd.github+json" \
+                -H "X-GitHub-Api-Version: 2022-11-28" \
+                "$CHECK_URL" || echo "000")
+              if [ "$HTTP_CODE" = "404" ]; then
+                echo "↻ Catchup: today's report ($TODAY) missing from gh-pages — recovering"
+                catchup_match=true
+              else
+                echo "Catchup check: today's report exists (HTTP $HTTP_CODE) — no action"
+              fi
+            fi
+          fi
+
           if [ "$hour_match" = "true" ] && [ "$day_match" = "true" ]; then
             echo "✓ Match — proceeding to build"
             echo "should-run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$catchup_match" = "true" ]; then
+            echo "✓ Catchup — proceeding to build"
+            echo "should-run=true" >> "$GITHUB_OUTPUT"
           else
-            echo "✗ No match — skipping (hour_match=$hour_match, day_match=$day_match)"
+            echo "✗ No match — skipping (hour=$hour_match day=$day_match catchup=$catchup_match)"
             echo "should-run=false" >> "$GITHUB_OUTPUT"
           fi
 
@@ -170,6 +224,12 @@ jobs:
           OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
           DEEPSEEK_BASE_URL: ${{ vars.DEEPSEEK_BASE_URL }}
           MINIMAX_BASE_URL: ${{ vars.MINIMAX_BASE_URL }}
+          # Generic aliases — handy when pointing at an OpenAI/Anthropic
+          # compatible service that isn't one of the named presets (Moonshot,
+          # SiliconFlow, OpenRouter, self-hosted, ...). Provider-specific
+          # vars above take precedence when both are set.
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           REPORT_LOCALE: ${{ vars.REPORT_LOCALE || 'zh' }}
           REPORT_TZ: ${{ vars.REPORT_TZ }}
           WEB_MODE: 'true'
